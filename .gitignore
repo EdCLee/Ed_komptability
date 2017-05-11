@@ -80,6 +80,7 @@ fastlane/test_output
 ## Various settings
 
 ## Other
+*.swp
 
 ### Xcode Patch ###
 *.xcodeproj/*
