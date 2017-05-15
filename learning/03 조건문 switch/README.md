@@ -56,9 +56,8 @@
 		}		 
 	```
 <br>
-<center>**swift는 간결하게 작성하는걸 추천한다.**</center>
+<center>swift는 간결하게 작성하는걸 추천한다.</center>
 <br>
---
 
 # 조건문
 
