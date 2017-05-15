@@ -5,7 +5,7 @@
 <br>
 <br>
 `Assignments`
-[과제페이지](https://github.com/EdCLee/Ed_komptability/tree/master/assignments)
+- [과제페이지](https://github.com/EdCLee/Ed_komptability/tree/master/assignments)
 <br>
 `Projects`
-[계산기](https://github.com/EdCLee/Ed_komptability/blob/master/projects/01%20Calculator/Calculator/ViewController.swift)
+- [계산기](https://github.com/EdCLee/Ed_komptability/blob/master/projects/01%20Calculator/Calculator/ViewController.swift)
