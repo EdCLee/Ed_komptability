@@ -12,6 +12,8 @@
 
 <kbd>command</kbd> + <kbd>option</kbd> + <kbd>down</kbd> or <kbd>up</kbd> 부분 선택
 
+/// 입력하면 quick help 문서 작성할 수 있음
+
 ## Linux
 > 터미널에서 사용하게 될 용어
 

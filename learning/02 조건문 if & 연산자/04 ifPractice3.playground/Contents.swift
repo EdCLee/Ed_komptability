@@ -119,10 +119,10 @@ func leapYear(Count year:UInt) -> Bool {
         return false
     }
 }
-leapYear(Count: 1000)
-leapYear(Count: 1500)
-leapYear(Count: 1600)
+leapYear(Count: 1988)
 leapYear(Count: 2000)
+leapYear(Count: 2100)
+leapYear(Count: 2104)
 leapYear(Count: 2200)
 leapYear(Count: 4)
 

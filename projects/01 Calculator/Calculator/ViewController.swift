@@ -22,96 +22,322 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var tempFirstNum:Int = 0
+    var tempSecondNum:Int = 0
+    var tempOperation:String = ""
+    
+    var displayNumber:String = "0"
+
+//VIEW LIFE CYCLE////////////////////////////////////////////////////////
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    //@IBOutlet은 UI에 연결시켜주는 커넥터
-    @IBOutlet weak var displayOutlet: UILabel!
-    
-    //UIButton 생성은 스토리보드에서 control + drag로 ViewController에 생성 가능하다.
-    @IBAction func touch0(_ sender: UIButton) {
-        print("0")
-        displayOutlet.text = displayOutlet.text! + String(sender.tag-1)
-    }
-    //UIButton sender는 내부에서 작동하는 것
-    @IBAction func touch1(_ sender: UIButton) {
-        print("1")
-        let displayingText: String = self.displayOutlet.text!
-        self.displayOutlet.text = displayingText + "1"
-    }
-    @IBAction func touch2(_ sender: UIButton) {
-        print("2")
-        let displayingText: String = self.displayOutlet.text!
-        self.displayOutlet.text = displayingText + "2"
-    }
-    @IBAction func touch3(_ sender: UIButton) {
-        print("3")
-        let displayingText: String = self.displayOutlet.text!
-        self.displayOutlet.text = displayingText + "3"
-    }
-    @IBAction func touch4(_ sender: UIButton) {
-        print("4")
-        let displayingText: String = self.displayOutlet.text!
-        self.displayOutlet.text = displayingText + "4"
-    }
-    @IBAction func touch5(_ sender: UIButton) {
-        print("5")
-        let displayingText: String = self.displayOutlet.text!
-        self.displayOutlet.text = displayingText + "5"
-    }
-    @IBAction func touch6(_ sender: UIButton) {
-        print("6")
-        let displayingText: String = self.displayOutlet.text!
-        self.displayOutlet.text = displayingText + "6"
-    }
-    @IBAction func touch7(_ sender: UIButton) {
-        print("7")
-        let displayingText: String = self.displayOutlet.text!
-        self.displayOutlet.text = displayingText + "7"
-    }
-    @IBAction func touch8(_ sender: UIButton) {
-        print("8")
-        let displayingText: String = self.displayOutlet.text!
-        self.displayOutlet.text = displayingText + "8"
-    }
-    @IBAction func touch9(_ sender: UIButton) {
-        print("9")
-        let displayingText: String = self.displayOutlet.text!
-        self.displayOutlet.text = displayingText + "9"
-    }
-    @IBAction func allClear(_ sender: UIButton) {
-        print(" AC ")
-        self.displayOutlet.text = "0"
-    }
-    @IBAction func plusMinus(_ sender: UIButton) {
-        print(" +/– ")
-    }
-    @IBAction func percentage(_ sender: UIButton) {
-        print(" % ")
-    }
-    @IBAction func divide(_ sender: UIButton) {
-        print(" ÷ ")
-    }
-    @IBAction func multiply(_ sender: UIButton) {
-        print(" x ")
-    }
-    @IBAction func minus(_ sender: UIButton) {
-        print(" – ")
-    }
-    @IBAction func plus(_ sender: UIButton) {
-        print(" + ")
-    }
-    @IBAction func equal(_ sender: UIButton) {
-        print(" = ")
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
+//VIEW ACTION////////////////////////////////////////////////////////////
+    // @IBOutlet은 UI에 연결시켜주는 커넥터
+    @IBOutlet weak var displayOut: UILabel!
+    
+    // UIButton 생성은 스토리보드에서 control + drag로
+    // ViewController에 생성 가능하다.
+    
+    @IBAction func touch0(_ sender: UIButton) {
+        print("0")
+        if displayNumber == "0" {
+            displayNumber = "0"
+        }else{
+            displayNumber += "0"
+        }
+        
+        if tempOperation.isEmpty {
+            tempFirstNum = Int(displayNumber)!
+        }else{
+            tempSecondNum = Int(displayNumber)!
+        }
+        self.displayOut.text = displayNumber
+    }
 
+    // UIButton sender는 내부에서 작동하는 것
+    @IBAction func touch1(_ sender: UIButton) {
+        print("1")
+        if displayNumber == "0" {
+            displayNumber = "1"
+        }else{
+            displayNumber += "1"
+        }
+        
+        if tempOperation.isEmpty {
+            tempFirstNum = Int(displayNumber)!
+        }else{
+            tempSecondNum = Int(displayNumber)!
+        }
+        self.displayOut.text = displayNumber
+    }
+
+    @IBAction func touch2(_ sender: UIButton) {
+        print("2")
+        if displayNumber == "0" {
+            displayNumber = "2"
+        }else{
+            displayNumber += "2"
+        }
+        
+        if tempOperation.isEmpty {
+            tempFirstNum = Int(displayNumber)!
+        }else{
+            tempSecondNum = Int(displayNumber)!
+        }
+        self.displayOut.text = displayNumber
+    }
+
+    @IBAction func touch3(_ sender: UIButton) {
+        print("3")
+        if displayNumber == "0" {
+            displayNumber = "3"
+        }else{
+            displayNumber += "3"
+        }
+        
+        if tempOperation.isEmpty {
+            tempFirstNum = Int(displayNumber)!
+        }else{
+            tempSecondNum = Int(displayNumber)!
+        }
+        self.displayOut.text = displayNumber
+    }
+
+    @IBAction func touch4(_ sender: UIButton) {
+        print("4")
+        if displayNumber == "0" {
+            displayNumber = "4"
+        }else{
+            displayNumber += "4"
+        }
+        
+        if tempOperation.isEmpty {
+            tempFirstNum = Int(displayNumber)!
+        }else{
+            tempSecondNum = Int(displayNumber)!
+        }
+        self.displayOut.text = displayNumber
+    }
+
+    @IBAction func touch5(_ sender: UIButton) {
+        print("5")
+        if displayNumber == "0" {
+            displayNumber = "5"
+        }else{
+            displayNumber += "5"
+        }
+        
+        if tempOperation.isEmpty {
+            tempFirstNum = Int(displayNumber)!
+        }else{
+            tempSecondNum = Int(displayNumber)!
+        }
+        self.displayOut.text = displayNumber
+    }
+
+    @IBAction func touch6(_ sender: UIButton) {
+        print("6")
+        if displayNumber == "0" {
+            displayNumber = "6"
+        }else{
+        displayNumber += "6"
+        }
+        
+        if tempOperation.isEmpty {
+            tempFirstNum = Int(displayNumber)!
+        }else{
+            tempSecondNum = Int(displayNumber)!
+        }
+        self.displayOut.text = displayNumber
+    }
+
+    @IBAction func touch7(_ sender: UIButton) {
+        print("7")
+        if displayNumber == "0" {
+            displayNumber = "7"
+        }else{
+            displayNumber += "7"
+        }
+        
+        if tempOperation.isEmpty {
+            tempFirstNum = Int(displayNumber)!
+        }else{
+            tempSecondNum = Int(displayNumber)!
+        }
+        self.displayOut.text = displayNumber
+    }
+    
+    @IBAction func touch8(_ sender: UIButton) {
+        print("8")
+        if displayNumber == "0" {
+            displayNumber = "8"
+        }else{
+            displayNumber += "8"
+        }
+        
+        if tempOperation.isEmpty {
+            tempFirstNum = Int(displayNumber)!
+        }else{
+            tempSecondNum = Int(displayNumber)!
+        }
+        self.displayOut.text = displayNumber
+    }
+    
+    @IBAction func touch9(_ sender: UIButton) {
+        print("9")
+        if displayNumber == "0" {
+            displayNumber = "9"
+        }else{
+            displayNumber += "9"
+        }
+        
+        if tempOperation.isEmpty {
+            tempFirstNum = Int(displayNumber)!
+        }else{
+            tempSecondNum = Int(displayNumber)!
+        }
+        self.displayOut.text = displayNumber
+    }
+    
+    @IBAction func touchPoint(_ sender: UIButton) {
+        print("0")
+        displayNumber = String(format: "%.2f", Double(tempFirstNum) / 10.0)
+        
+        displayOut.text = displayNumber
+
+    }
+    
+    @IBAction func allClear(_ sender: UIButton) {
+        print(" AC ")
+        tempFirstNum = 0
+        tempSecondNum = 0
+        displayNumber = "0"
+        
+        displayOut.text = displayNumber
+        
+    }
+    @IBAction func plusMinus(_ sender: UIButton) {
+        print(" +/– ")
+//        tempFirstNum = 0
+//        tempOperation = "+/-"
+        displayNumber = String(Int(tempFirstNum) * -1)
+        
+        displayOut.text = "\(displayNumber)"
+    }
+    @IBAction func percentage(_ sender: UIButton) {
+        print(" % ")
+        tempFirstNum = 0
+//        tempOperation = "%"
+        displayNumber = String(format: "%.2f", Double(tempFirstNum) / 100.0)
+        
+        displayOut.text = "\(displayNumber)"
+    }
+    @IBAction func divide(_ sender: UIButton) {
+        print(" ÷ ")
+        tempOperation = "/"
+        displayNumber = "0"
+    }
+    @IBAction func multiply(_ sender: UIButton) {
+        print(" x ")
+        tempOperation = "*"
+        displayNumber = "0"
+    }
+    @IBAction func minus(_ sender: UIButton) {
+        print(" – ")
+        tempOperation = "-"
+        displayNumber = "0"
+    }
+    @IBAction func plus(_ sender: UIButton) {
+        print(" + ")
+        tempOperation = "+"
+        displayNumber = "0"
+        
+    }
+    @IBAction func equal(_ sender: UIButton) {
+        print(" = ")
+        
+        var resultValue = 0
+        switch tempOperation {
+        case "+":
+            resultValue = processPlus(firstNum: tempFirstNum, secondNum: tempSecondNum)
+        case "-":
+            resultValue = processMinus(firstNum: tempFirstNum, secondNum: tempSecondNum)
+        case "*":
+            resultValue = processMultiply(firstNum: tempFirstNum, secondNum: tempSecondNum)
+        case "/":
+            resultValue = processDivide(firstNum: tempFirstNum, secondNum: tempSecondNum)
+//        case "%":
+//            resultValue = processPercentage(firstNum: tempFirstNum)
+//        case "+/-":
+//            resultValue = processPlusMinus(firstNum: tempFirstNum)
+//        case "AC":
+//            resultValue = processAllClear(firstNum: tempFirstNum, secondNum: tempSecondNum)
+            
+        default:
+            resultValue = 0
+        }
+        displayOut.text = "\(resultValue)"
+        
+        tempFirstNum = resultValue
+        tempSecondNum = 0
+        tempOperation = ""
+        displayNumber = "0"
+        
+        print("tempFirstNum === \(tempFirstNum)")
+        print("resultValue === \(resultValue)")
+    }
+    
+//CALCULATION METHOD/////////////////////////////////////////////////////
+    
+    // 더하기 함수
+    func processPlus(firstNum:Int, secondNum:Int) -> Int {
+        return firstNum + secondNum
+    }
+    
+    // 빼기 함수
+    func processMinus(firstNum:Int, secondNum:Int) -> Int {
+        print(processPlus)
+        return firstNum - secondNum
+    }
+    
+    // 곱하기 함수
+    func processMultiply(firstNum:Int, secondNum:Int) -> Int {
+        return firstNum * secondNum
+    }
+    
+    // 나누기 함수
+    func processDivide(firstNum:Int, secondNum:Int) -> Int {
+        return firstNum / secondNum
+    }
+    
+//    // 퍼센트
+//    func processPercentage(firstNum:Int) -> Int {
+//        return firstNum / 100
+//    }
+//    
+//    //양수/음수
+//    func processPlusMinus(firstNum:Int) -> Int {
+//        return firstNum * -1
+//    }
+//    
+//    //지우기
+//    func processAllClear(firstNum:Int, secondNum:Int) -> Int {
+//        print("processAllClear ==== \(processAllClear)")
+//        return 0
+//    }
 }
+// 앞에 먼저 계산된 결과값에 연산은 안됨.
+
+//QUESTIONS//////////////////////////////////////////////////////////////
+// ?, !, self 기호에 대한 기능이 무엇인지 궁금함
+// ! = nil이 아님. String에 ""와 null의 차이.
+// displayNumber대신 기존의 displayOut을 사용하면 안되는지?
 
