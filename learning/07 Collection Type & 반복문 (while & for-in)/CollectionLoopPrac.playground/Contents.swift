@@ -4,6 +4,9 @@ import UIKit
 
 var str = "Hello, playground"
 
+//: Playground - noun: a place where people can play
+
+
 // while문 구구단
 func multiplicationTable(firstNum:Int) -> Int {
     var times:Int = 1
@@ -84,17 +87,28 @@ print(getLottoNum())
 print(getLottoNum())
 print(getLottoNum())
 
-// 약수 구하기
+
+// MARK: 약수 구하기
 func getDivisor(inNumber num:Int) -> [Int] {
-    var divisor: Array<Int> = Array<Int>()
+    var result:[Int] = []
     
-    for check in 1...num {
-        if check % 2 == 0 {
-            
+    for i in 1...num {
+        if num % i == 0 {
+            result.append(i)
         }
     }
+    
+    return result
 }
 
 
-// 소수 판별기
-
+// MARK: 소수 판별기
+func isPrimeNumberOf(number num:Int) -> Bool {
+    var result:Bool = false
+    
+    if getDivisor(inNumber: num).count <= 2 {
+        result = true
+    }
+    
+    return result
+}

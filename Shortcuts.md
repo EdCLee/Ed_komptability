@@ -1,4 +1,4 @@
-# Shortcuts
+# Shortcuts & Tips
 
 ## macOS
 
@@ -32,6 +32,20 @@
 
 - `///` 입력하면 quick help 에서 조회 가능한 주석 작성 가능.
 
+- `// MARK: - 숫자` 버튼들와 같은 주석으로 코드의 흐름을 구분할 수 있다. ( Xcode의 경로표시줄에서 쉽게 이동이 가능하다. )
+
+- UIButton.sender에서 `sender.titleLabel.text`를 통해 버튼의 텍스트 값을 받아올 수 있다.
+
+```swift
+@IBAction func numberBtnTouched(_ sender: UIButton) {
+         print("\(sender.currentTitle!))번 버튼 누름.")
+                  
+         addDisplayNumber(num:(sender.titleLabel?.text)!)
+         addFirstNumOrSecondNum(number:displayNumber)
+         
+         self.displayLabel.text = displayNumber
+     }
+```
 
 ## Linux
 > 터미널에서 사용하게 될 용어

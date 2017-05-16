@@ -333,9 +333,29 @@ Array는 넣은 순서대로 중복을 허용하며 저장하는 콜렉션, Set�
 
 ###### 예제: 약수 구하기
 ```swift
+	func getDivisor(inNumber num:Int) -> [Int] {
+        var result:[Int] = []
+        
+        for i in 1...num {
+            if num % i == 0 {
+                result.append(i)
+            }
+        }
+           
+        return result
+	 }
 
 ```
 ###### 예제: 소수 판별기
 ```swift
+    func isPrimeNumberOf(number num:Int) -> Bool {
+        var result:Bool = false
+        
+        if getDivisor(inNumber: num).count <= 2 {
+            result = true
+        }
+        
+        return result
+    }
 
 ```

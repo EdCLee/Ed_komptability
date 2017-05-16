@@ -1,6 +1,6 @@
 //
-//  CollectionRoopPracUITests.swift
-//  CollectionRoopPracUITests
+//  CollectionLoopPracUITests.swift
+//  CollectionLoopPracUITests
 //
 //  Created by CLEE on 16/05/2017.
 //  Copyright © 2017 CLEE. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class CollectionRoopPracUITests: XCTestCase {
+class CollectionLoopPracUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
