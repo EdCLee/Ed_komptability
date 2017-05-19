@@ -13,6 +13,9 @@
 		71743B9E1ECC3E0E00ED73E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71743B9D1ECC3E0E00ED73E6 /* Assets.xcassets */; };
 		71743BA11ECC3E0E00ED73E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71743B9F1ECC3E0E00ED73E6 /* LaunchScreen.storyboard */; };
 		71743BA91ECC3E2F00ED73E6 /* Pikachu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71743BA81ECC3E2F00ED73E6 /* Pikachu.swift */; };
+		71ECAB501ECD71E800C4906F /* PoketMon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ECAB4F1ECD71E800C4906F /* PoketMon.swift */; };
+		71ECAB521ECD7B5F00C4906F /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ECAB511ECD7B5F00C4906F /* Trainer.swift */; };
+		71ECAB541ECD959700C4906F /* Raichu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ECAB531ECD959700C4906F /* Raichu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		71743BA01ECC3E0E00ED73E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71743BA21ECC3E0E00ED73E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71743BA81ECC3E2F00ED73E6 /* Pikachu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pikachu.swift; sourceTree = "<group>"; };
+		71ECAB4F1ECD71E800C4906F /* PoketMon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoketMon.swift; sourceTree = "<group>"; };
+		71ECAB511ECD7B5F00C4906F /* Trainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+		71ECAB531ECD959700C4906F /* Raichu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Raichu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				71743B9F1ECC3E0E00ED73E6 /* LaunchScreen.storyboard */,
 				71743BA21ECC3E0E00ED73E6 /* Info.plist */,
 				71743BA81ECC3E2F00ED73E6 /* Pikachu.swift */,
+				71ECAB531ECD959700C4906F /* Raichu.swift */,
+				71ECAB511ECD7B5F00C4906F /* Trainer.swift */,
+				71ECAB4F1ECD71E800C4906F /* PoketMon.swift */,
 			);
 			path = PocketMonster;
 			sourceTree = "<group>";
@@ -140,8 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				71743B991ECC3E0E00ED73E6 /* ViewController.swift in Sources */,
+				71ECAB541ECD959700C4906F /* Raichu.swift in Sources */,
 				71743B971ECC3E0E00ED73E6 /* AppDelegate.swift in Sources */,
+				71ECAB501ECD71E800C4906F /* PoketMon.swift in Sources */,
 				71743BA91ECC3E2F00ED73E6 /* Pikachu.swift in Sources */,
+				71ECAB521ECD7B5F00C4906F /* Trainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,7 @@
 				71743BA71ECC3E0E00ED73E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
