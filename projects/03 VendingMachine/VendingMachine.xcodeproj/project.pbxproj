@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		711D5B671ED1F227005C17DE /* Knife.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B661ED1F227005C17DE /* Knife.png */; };
+		711D5B691ED1F34C005C17DE /* Mjölnir.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B681ED1F34C005C17DE /* Mjölnir.png */; };
+		711D5B6B1ED1F3B7005C17DE /* Captain.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B6A1ED1F3B7005C17DE /* Captain.png */; };
+		711D5B6D1ED202AC005C17DE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711D5B6C1ED202AC005C17DE /* Item.swift */; };
+		711D5B6F1ED2049D005C17DE /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711D5B6E1ED2049D005C17DE /* Coin.swift */; };
+		711D5B711ED20647005C17DE /* legoBrick.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B701ED20647005C17DE /* legoBrick.png */; };
+		711D5B751ED274BB005C17DE /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B721ED274BB005C17DE /* bg1.png */; };
+		711D5B761ED274BB005C17DE /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B731ED274BB005C17DE /* bg2.png */; };
+		711D5B771ED274BB005C17DE /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B741ED274BB005C17DE /* bg3.png */; };
+		711D5B7A1ED27554005C17DE /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B781ED27554005C17DE /* bg4.png */; };
+		711D5B7B1ED27554005C17DE /* bg5.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B791ED27554005C17DE /* bg5.png */; };
+		711D5B811ED279BD005C17DE /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 711D5B801ED279BD005C17DE /* title.png */; };
+		71688D5A1ED04E6800E34CAE /* Grenade.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D4E1ED04E6800E34CAE /* Grenade.png */; };
+		71688D5D1ED04E6800E34CAE /* legoCoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D511ED04E6800E34CAE /* legoCoin.png */; };
+		71688D5E1ED04E6800E34CAE /* legoCoin2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D521ED04E6800E34CAE /* legoCoin2.png */; };
+		71688D5F1ED04E6800E34CAE /* legoCoin3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D531ED04E6800E34CAE /* legoCoin3.png */; };
+		71688D601ED04E6800E34CAE /* refund.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D541ED04E6800E34CAE /* refund.png */; };
+		71688D611ED04E6800E34CAE /* revolver.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D551ED04E6800E34CAE /* revolver.png */; };
+		71688D671ED051B500E34CAE /* Bullets.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D631ED051B500E34CAE /* Bullets.png */; };
+		71688D691ED051B500E34CAE /* gun.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D651ED051B500E34CAE /* gun.png */; };
+		71ECAB621ECE8CE300C4906F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ECAB611ECE8CE300C4906F /* AppDelegate.swift */; };
+		71ECAB641ECE8CE300C4906F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ECAB631ECE8CE300C4906F /* ViewController.swift */; };
+		71ECAB671ECE8CE300C4906F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ECAB651ECE8CE300C4906F /* Main.storyboard */; };
+		71ECAB691ECE8CE300C4906F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71ECAB681ECE8CE300C4906F /* Assets.xcassets */; };
+		71ECAB6C1ECE8CE300C4906F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ECAB6A1ECE8CE300C4906F /* LaunchScreen.storyboard */; };
+		71ECAB761ECE93FD00C4906F /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 71ECAB751ECE93FD00C4906F /* Logo.png */; };
+		71ECAB841ECE99F400C4906F /* Signature.png in Resources */ = {isa = PBXBuildFile; fileRef = 71ECAB831ECE99F400C4906F /* Signature.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		711D5B661ED1F227005C17DE /* Knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Knife.png; sourceTree = "<group>"; };
+		711D5B681ED1F34C005C17DE /* Mjölnir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mjölnir.png"; sourceTree = "<group>"; };
+		711D5B6A1ED1F3B7005C17DE /* Captain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Captain.png; sourceTree = "<group>"; };
+		711D5B6C1ED202AC005C17DE /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		711D5B6E1ED2049D005C17DE /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		711D5B701ED20647005C17DE /* legoBrick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legoBrick.png; sourceTree = "<group>"; };
+		711D5B721ED274BB005C17DE /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		711D5B731ED274BB005C17DE /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		711D5B741ED274BB005C17DE /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
+		711D5B781ED27554005C17DE /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
+		711D5B791ED27554005C17DE /* bg5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg5.png; sourceTree = "<group>"; };
+		711D5B801ED279BD005C17DE /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		71688D4E1ED04E6800E34CAE /* Grenade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grenade.png; sourceTree = "<group>"; };
+		71688D511ED04E6800E34CAE /* legoCoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legoCoin.png; sourceTree = "<group>"; };
+		71688D521ED04E6800E34CAE /* legoCoin2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legoCoin2.png; sourceTree = "<group>"; };
+		71688D531ED04E6800E34CAE /* legoCoin3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legoCoin3.png; sourceTree = "<group>"; };
+		71688D541ED04E6800E34CAE /* refund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refund.png; sourceTree = "<group>"; };
+		71688D551ED04E6800E34CAE /* revolver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = revolver.png; sourceTree = "<group>"; };
+		71688D631ED051B500E34CAE /* Bullets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bullets.png; sourceTree = "<group>"; };
+		71688D651ED051B500E34CAE /* gun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gun.png; sourceTree = "<group>"; };
+		71ECAB5E1ECE8CE300C4906F /* VendingMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendingMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71ECAB611ECE8CE300C4906F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71ECAB631ECE8CE300C4906F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71ECAB661ECE8CE300C4906F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71ECAB681ECE8CE300C4906F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71ECAB6B1ECE8CE300C4906F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71ECAB6D1ECE8CE300C4906F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71ECAB751ECE93FD00C4906F /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		71ECAB831ECE99F400C4906F /* Signature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signature.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71ECAB5B1ECE8CE300C4906F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71ECAB551ECE8CE200C4906F = {
+			isa = PBXGroup;
+			children = (
+				71ECAB601ECE8CE300C4906F /* VendingMachine */,
+				71ECAB5F1ECE8CE300C4906F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71ECAB5F1ECE8CE300C4906F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71ECAB5E1ECE8CE300C4906F /* VendingMachine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71ECAB601ECE8CE300C4906F /* VendingMachine */ = {
+			isa = PBXGroup;
+			children = (
+				71ECAB611ECE8CE300C4906F /* AppDelegate.swift */,
+				71ECAB631ECE8CE300C4906F /* ViewController.swift */,
+				711D5B6E1ED2049D005C17DE /* Coin.swift */,
+				711D5B6C1ED202AC005C17DE /* Item.swift */,
+				71ECAB651ECE8CE300C4906F /* Main.storyboard */,
+				71ECAB681ECE8CE300C4906F /* Assets.xcassets */,
+				71ECAB6A1ECE8CE300C4906F /* LaunchScreen.storyboard */,
+				71ECAB6D1ECE8CE300C4906F /* Info.plist */,
+				711D5B661ED1F227005C17DE /* Knife.png */,
+				71688D4E1ED04E6800E34CAE /* Grenade.png */,
+				71688D511ED04E6800E34CAE /* legoCoin.png */,
+				711D5B681ED1F34C005C17DE /* Mjölnir.png */,
+				71688D521ED04E6800E34CAE /* legoCoin2.png */,
+				711D5B6A1ED1F3B7005C17DE /* Captain.png */,
+				71688D531ED04E6800E34CAE /* legoCoin3.png */,
+				71688D541ED04E6800E34CAE /* refund.png */,
+				71688D551ED04E6800E34CAE /* revolver.png */,
+				71ECAB751ECE93FD00C4906F /* Logo.png */,
+				71ECAB831ECE99F400C4906F /* Signature.png */,
+				71688D631ED051B500E34CAE /* Bullets.png */,
+				711D5B701ED20647005C17DE /* legoBrick.png */,
+				71688D651ED051B500E34CAE /* gun.png */,
+				711D5B721ED274BB005C17DE /* bg1.png */,
+				711D5B731ED274BB005C17DE /* bg2.png */,
+				711D5B741ED274BB005C17DE /* bg3.png */,
+				711D5B781ED27554005C17DE /* bg4.png */,
+				711D5B791ED27554005C17DE /* bg5.png */,
+				711D5B801ED279BD005C17DE /* title.png */,
+			);
+			path = VendingMachine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71ECAB5D1ECE8CE300C4906F /* VendingMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71ECAB701ECE8CE300C4906F /* Build configuration list for PBXNativeTarget "VendingMachine" */;
+			buildPhases = (
+				71ECAB5A1ECE8CE300C4906F /* Sources */,
+				71ECAB5B1ECE8CE300C4906F /* Frameworks */,
+				71ECAB5C1ECE8CE300C4906F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VendingMachine;
+			productName = VendingMachine;
+			productReference = 71ECAB5E1ECE8CE300C4906F /* VendingMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71ECAB561ECE8CE200C4906F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					100,
+					80,
+				);
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CLEE;
+				TargetAttributes = {
+					71ECAB5D1ECE8CE300C4906F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71ECAB591ECE8CE200C4906F /* Build configuration list for PBXProject "VendingMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71ECAB551ECE8CE200C4906F;
+			productRefGroup = 71ECAB5F1ECE8CE300C4906F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71ECAB5D1ECE8CE300C4906F /* VendingMachine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71ECAB5C1ECE8CE300C4906F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711D5B811ED279BD005C17DE /* title.png in Resources */,
+				71688D601ED04E6800E34CAE /* refund.png in Resources */,
+				71688D5E1ED04E6800E34CAE /* legoCoin2.png in Resources */,
+				711D5B771ED274BB005C17DE /* bg3.png in Resources */,
+				71688D611ED04E6800E34CAE /* revolver.png in Resources */,
+				711D5B6B1ED1F3B7005C17DE /* Captain.png in Resources */,
+				71688D691ED051B500E34CAE /* gun.png in Resources */,
+				711D5B711ED20647005C17DE /* legoBrick.png in Resources */,
+				71ECAB841ECE99F400C4906F /* Signature.png in Resources */,
+				711D5B691ED1F34C005C17DE /* Mjölnir.png in Resources */,
+				71ECAB761ECE93FD00C4906F /* Logo.png in Resources */,
+				711D5B761ED274BB005C17DE /* bg2.png in Resources */,
+				71688D671ED051B500E34CAE /* Bullets.png in Resources */,
+				711D5B7B1ED27554005C17DE /* bg5.png in Resources */,
+				71ECAB6C1ECE8CE300C4906F /* LaunchScreen.storyboard in Resources */,
+				71688D5D1ED04E6800E34CAE /* legoCoin.png in Resources */,
+				711D5B751ED274BB005C17DE /* bg1.png in Resources */,
+				711D5B7A1ED27554005C17DE /* bg4.png in Resources */,
+				71688D5F1ED04E6800E34CAE /* legoCoin3.png in Resources */,
+				71ECAB691ECE8CE300C4906F /* Assets.xcassets in Resources */,
+				71ECAB671ECE8CE300C4906F /* Main.storyboard in Resources */,
+				711D5B671ED1F227005C17DE /* Knife.png in Resources */,
+				71688D5A1ED04E6800E34CAE /* Grenade.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71ECAB5A1ECE8CE300C4906F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71ECAB641ECE8CE300C4906F /* ViewController.swift in Sources */,
+				711D5B6D1ED202AC005C17DE /* Item.swift in Sources */,
+				711D5B6F1ED2049D005C17DE /* Coin.swift in Sources */,
+				71ECAB621ECE8CE300C4906F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71ECAB651ECE8CE300C4906F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71ECAB661ECE8CE300C4906F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71ECAB6A1ECE8CE300C4906F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71ECAB6B1ECE8CE300C4906F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71ECAB6E1ECE8CE300C4906F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71ECAB6F1ECE8CE300C4906F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71ECAB711ECE8CE300C4906F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CLEE.VendingMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		71ECAB721ECE8CE300C4906F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CLEE.VendingMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71ECAB591ECE8CE200C4906F /* Build configuration list for PBXProject "VendingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71ECAB6E1ECE8CE300C4906F /* Debug */,
+				71ECAB6F1ECE8CE300C4906F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71ECAB701ECE8CE300C4906F /* Build configuration list for PBXNativeTarget "VendingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71ECAB711ECE8CE300C4906F /* Debug */,
+				71ECAB721ECE8CE300C4906F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71ECAB561ECE8CE200C4906F /* Project object */;
+}

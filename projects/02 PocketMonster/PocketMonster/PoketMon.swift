@@ -18,6 +18,7 @@ class PoketMon {
     var hp:Int = 100
     
     var skills:[[String:Any]]?
+    var level:Int = 1
     var exp:Int = 0
     var ownerTrainer:Trainer?
     
@@ -54,10 +55,13 @@ class PoketMon {
         
     }
     
+    
+    
 }
 
 // MARK: 상태
 enum PokemonStatus {
+    case dead
     case moral
     case normal
     case poisoned
