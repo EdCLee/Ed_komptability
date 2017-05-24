@@ -27,6 +27,7 @@
 		71688D611ED04E6800E34CAE /* revolver.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D551ED04E6800E34CAE /* revolver.png */; };
 		71688D671ED051B500E34CAE /* Bullets.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D631ED051B500E34CAE /* Bullets.png */; };
 		71688D691ED051B500E34CAE /* gun.png in Resources */ = {isa = PBXBuildFile; fileRef = 71688D651ED051B500E34CAE /* gun.png */; };
+		719326DC1ED59B4E00C5BBE9 /* ItemStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719326DB1ED59B4E00C5BBE9 /* ItemStock.swift */; };
 		71ECAB621ECE8CE300C4906F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ECAB611ECE8CE300C4906F /* AppDelegate.swift */; };
 		71ECAB641ECE8CE300C4906F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ECAB631ECE8CE300C4906F /* ViewController.swift */; };
 		71ECAB671ECE8CE300C4906F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ECAB651ECE8CE300C4906F /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		71688D551ED04E6800E34CAE /* revolver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = revolver.png; sourceTree = "<group>"; };
 		71688D631ED051B500E34CAE /* Bullets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bullets.png; sourceTree = "<group>"; };
 		71688D651ED051B500E34CAE /* gun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gun.png; sourceTree = "<group>"; };
+		719326DB1ED59B4E00C5BBE9 /* ItemStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStock.swift; sourceTree = "<group>"; };
 		71ECAB5E1ECE8CE300C4906F /* VendingMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendingMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71ECAB611ECE8CE300C4906F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71ECAB631ECE8CE300C4906F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				711D5B6E1ED2049D005C17DE /* Coin.swift */,
 				711D5B6C1ED202AC005C17DE /* Item.swift */,
 				71ECAB651ECE8CE300C4906F /* Main.storyboard */,
+				719326DB1ED59B4E00C5BBE9 /* ItemStock.swift */,
 				71ECAB681ECE8CE300C4906F /* Assets.xcassets */,
 				71ECAB6A1ECE8CE300C4906F /* LaunchScreen.storyboard */,
 				71ECAB6D1ECE8CE300C4906F /* Info.plist */,
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71ECAB641ECE8CE300C4906F /* ViewController.swift in Sources */,
+				719326DC1ED59B4E00C5BBE9 /* ItemStock.swift in Sources */,
 				711D5B6D1ED202AC005C17DE /* Item.swift in Sources */,
 				711D5B6F1ED2049D005C17DE /* Coin.swift in Sources */,
 				71ECAB621ECE8CE300C4906F /* AppDelegate.swift in Sources */,
