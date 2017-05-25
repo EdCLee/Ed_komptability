@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         self.receivedItem.image = UIImage(named:"")
         self.moneyOutOfMyHand += sender.tag
         self.changeDisplay.text = "Coins: \(moneyOutOfMyHand)c"
-        self.displayModule.text = "Inert \(inputCoinValue)c"
+        self.displayModule.text = "Insert \(inputCoinValue)c"
     }
     
     
