@@ -41,6 +41,16 @@ print("\(count)번 수행 했다")
 <br>
 <br>
 <br>
+# UI에 관해서..
+>Frame-base로 개발하는 UI는 iOS6.xx 이전부터 지원.
+>
+>AutoLayout로 개발하는 UI는 iOS6.xx 이상부터 지원.
+>
+>StackView로 개발하는 UI는 iOS9.xx 이상부터 지원.
+
+프로그램이 사용될 환경에 따라 선택적으로 사용할 수 있어야 한다. 대형 포털사이트의 경우 사용자가 다양하기 때문에 사용될 국가 등 인프라에 맞게 사용 중에 있다.
+
+<br>
 
 # AutoLayout
 
