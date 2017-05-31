@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PresentModally" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDi-F8-E7c">
+                                <rect key="frame" x="87" y="495" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="cat.png"/>
+                                <connections>
+                                    <segue destination="ot0-Hf-RHA" kind="presentation" modalTransitionStyle="crossDissolve" id="ltL-2U-hTg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Would you like to walk around with me?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PnY-en-NaY">
+                                <rect key="frame" x="33" y="369" width="309" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="9dZ-aq-H7r">
+                                <rect key="frame" x="148" y="440" width="79" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="" image="cat.png"/>
+                                    <segment title="OFF"/>
+                                </segments>
+                                <color key="tintColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="segueCheck:" destination="BYZ-38-t0r" eventType="valueChanged" id="Y4q-60-QrQ"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="segButton" destination="9dZ-aq-H7r" id="TYd-0z-Uot"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+        <!--Segue View Controller-->
+        <scene sceneID="AX8-ks-Bi6">
+            <objects>
+                <viewController id="ot0-Hf-RHA" customClass="SegueViewController" customModule="PresentModally" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MCR-71-E9l"/>
+                        <viewControllerLayoutGuide type="bottom" id="Svk-H9-zNZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h0z-zR-AZx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4au-Gv-fmJ">
+                                <rect key="frame" x="87" y="495" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="cat.png"/>
+                                <connections>
+                                    <segue destination="xmO-g9-Fj4" kind="presentation" modalTransitionStyle="crossDissolve" id="pUK-VF-Zwi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQa-Xo-r0b">
+                                <rect key="frame" x="167" y="28" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="home.png"/>
+                                <connections>
+                                    <segue destination="nNt-tD-btc" kind="unwind" unwindAction="unwindSegueFor:" id="XG3-7z-DgZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jn2-9a-f0B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="nNt-tD-btc" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="792.79999999999995" y="37.331334332833585"/>
+        </scene>
+        <!--Segue View Controller-->
+        <scene sceneID="qfP-7L-41V">
+            <objects>
+                <viewController id="xmO-g9-Fj4" customClass="SegueViewController" customModule="PresentModally" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sx0-sN-2GH"/>
+                        <viewControllerLayoutGuide type="bottom" id="GUV-sB-sxX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Jt-ip-aOT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3FE-7n-9hW">
+                                <rect key="frame" x="87" y="495" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="cat.png"/>
+                                <connections>
+                                    <segue destination="p8f-ZN-PMx" kind="presentation" modalTransitionStyle="crossDissolve" id="JDI-Rv-k1r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nl-4Z-sJ2">
+                                <rect key="frame" x="167" y="28" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="home.png"/>
+                                <connections>
+                                    <segue destination="0gc-24-oH8" kind="unwind" unwindAction="unwindSegueFor:" id="MAF-2W-d4l"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e9A-x1-XaG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="0gc-24-oH8" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1528.8" y="37.331334332833585"/>
+        </scene>
+        <!--Segue View Controller-->
+        <scene sceneID="aY5-DZ-Mnd">
+            <objects>
+                <viewController id="p8f-ZN-PMx" customClass="SegueViewController" customModule="PresentModally" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GZx-tS-nv7"/>
+                        <viewControllerLayoutGuide type="bottom" id="m05-Ku-RUa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fNV-dd-w8L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQQ-c8-hzZ">
+                                <rect key="frame" x="87" y="495" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="cat.png"/>
+                                <connections>
+                                    <segue destination="JGo-io-wZ8" kind="presentation" modalTransitionStyle="crossDissolve" id="LaN-8n-Be2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOo-Z8-gw5">
+                                <rect key="frame" x="167" y="28" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="home.png"/>
+                                <connections>
+                                    <segue destination="Jcb-6q-VJw" kind="unwind" unwindAction="unwindSegueFor:" id="hPn-fd-tEC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G3B-dp-tFG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Jcb-6q-VJw" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2282" y="37"/>
+        </scene>
+        <!--Segue View Controller-->
+        <scene sceneID="i2u-wO-YzO">
+            <objects>
+                <viewController id="rSr-mF-vqX" customClass="SegueViewController" customModule="PresentModally" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x7C-rn-C9e"/>
+                        <viewControllerLayoutGuide type="bottom" id="j60-Ff-FWl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rhU-2b-eZY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cer-Aj-msd">
+                                <rect key="frame" x="87" y="495" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="cat.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="KtE-be-0hg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQQ-b0-yf0">
+                                <rect key="frame" x="167" y="28" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="home.png"/>
+                                <connections>
+                                    <segue destination="Fi9-NI-hFg" kind="unwind" unwindAction="unwindSegueFor:" id="nco-IR-opL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5KA-EV-CfR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Fi9-NI-hFg" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="734"/>
+        </scene>
+        <!--Segue View Controller-->
+        <scene sceneID="rOb-Gr-YC1">
+            <objects>
+                <viewController id="aZY-H4-iB1" customClass="SegueViewController" customModule="PresentModally" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zbv-I5-O50"/>
+                        <viewControllerLayoutGuide type="bottom" id="hEW-b9-bnt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XfJ-Wq-gLy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmu-jJ-u1t">
+                                <rect key="frame" x="87" y="495" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="cat.png"/>
+                                <connections>
+                                    <segue destination="rSr-mF-vqX" kind="presentation" modalTransitionStyle="crossDissolve" id="FUe-7X-0K1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqd-Fm-oej">
+                                <rect key="frame" x="167" y="28" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="home.png"/>
+                                <connections>
+                                    <segue destination="HXm-jJ-BWS" kind="unwind" unwindAction="unwindSegueFor:" id="NUG-vv-JG4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GnL-M2-Pm5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="HXm-jJ-BWS" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="793" y="735"/>
+        </scene>
+        <!--Segue View Controller-->
+        <scene sceneID="Zrv-Fx-2Sb">
+            <objects>
+                <viewController id="ldY-FK-PPA" customClass="SegueViewController" customModule="PresentModally" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Y7-p1-7fh"/>
+                        <viewControllerLayoutGuide type="bottom" id="yg0-0t-eDs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mlw-p5-nyo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edH-rD-WVM">
+                                <rect key="frame" x="87" y="495" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="cat.png"/>
+                                <connections>
+                                    <segue destination="aZY-H4-iB1" kind="presentation" modalTransitionStyle="crossDissolve" id="03w-Pt-cq9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ihb-3j-A9f">
+                                <rect key="frame" x="167" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="home.png"/>
+                                <connections>
+                                    <segue destination="c9x-79-cAA" kind="unwind" unwindAction="unwindSegueFor:" id="lTr-O6-xlr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jg0-d7-kge" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="c9x-79-cAA" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1529" y="735"/>
+        </scene>
+        <!--Segue View Controller-->
+        <scene sceneID="a7L-fy-haj">
+            <objects>
+                <viewController id="JGo-io-wZ8" customClass="SegueViewController" customModule="PresentModally" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bgh-fJ-305"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y8S-ou-VIc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vjJ-IV-4wh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5f-vZ-6OZ">
+                                <rect key="frame" x="87" y="495" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="cat.png"/>
+                                <connections>
+                                    <segue destination="ldY-FK-PPA" kind="presentation" modalTransitionStyle="crossDissolve" id="mnR-nL-bRs"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fur.png" translatesAutoresizingMaskIntoConstraints="NO" id="vLQ-XH-cW6">
+                                <rect key="frame" x="15" y="564" width="370" height="197"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree.png" translatesAutoresizingMaskIntoConstraints="NO" id="6t2-MB-f2Z">
+                                <rect key="frame" x="247" y="52" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree1.png" translatesAutoresizingMaskIntoConstraints="NO" id="aEi-S5-2qU">
+                                <rect key="frame" x="0.0" y="233" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zebra.png" translatesAutoresizingMaskIntoConstraints="NO" id="iRx-CK-KAG">
+                                <rect key="frame" x="16" y="114" width="98" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8XW-Nz-Pbb">
+                                <rect key="frame" x="167" y="28" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="home.png"/>
+                                <connections>
+                                    <segue destination="bTj-yX-sXc" kind="unwind" unwindAction="unwindSegueFor:" id="0Cf-CZ-nZi"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buffalo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZIX-BB-sGs">
+                                <rect key="frame" x="208" y="320" width="113" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3HH-JW-Aqz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="bTj-yX-sXc" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2280.8000000000002" y="732.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="buffalo.png" width="200" height="200"/>
+        <image name="cat.png" width="200" height="200"/>
+        <image name="fur.png" width="200" height="200"/>
+        <image name="home.png" width="200" height="200"/>
+        <image name="tree.png" width="200" height="200"/>
+        <image name="tree1.png" width="200" height="200"/>
+        <image name="zebra.png" width="200" height="200"/>
+    </resources>
+</document>

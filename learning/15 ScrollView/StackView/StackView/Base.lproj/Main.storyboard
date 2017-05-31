@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5tp-dA-ch3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StackView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YoJ-ao-yV1">
+                                <rect key="frame" x="-0.5" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rOn-t6-fnf" userLabel="Root Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="28s-ZV-wAG" userLabel="Root Stack View">
+                                                <rect key="frame" x="0.0" y="16" width="375" height="739"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="FQe-Dn-JDZ" userLabel="Top Stack View">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1w2-BX-i1q">
+                                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="110"/>
+                                                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KXY-zg-JYA">
+                                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="110"/>
+                                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </view>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="FQe-Dn-JDZ" secondAttribute="height" multiplier="75:22" id="xks-v4-fKx"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAf-8x-dpo">
+                                                        <rect key="frame" x="0.0" y="110" width="375" height="629"/>
+                                                        <mutableString key="text">초기화는 클래스, 구조체, 또는 열거형의 인스턴스를 사용하기 위한 준비 과정입니다. 이 과정은 해당 인스턴스의 각각의 저장된 속성의 초기값을 설정하는 것과 그 외의 다른 설정 또는 새 인스턴스를 사용하기 전에 필요한 초기화를 합니다. 이 초기화 과정을 이니셜라이저(initializer)를 정의함으로서 구현할 수 있습니다. 이니셜라이저는 특정 타입의 새 인스턴스를 만들때 호출될 수 있는 특수 메소드입니다. 다른 오브젝티브 C의 이니셜라이저와는 달리 스위프트의 이니셜라이저는 값을 반환하지 않습니다. 이니셜라이저의 주 역할은 새 인스턴스가 처음 사용되기 전에 잘못된 곳이 없이 초기화가 되었는지 보장하는 것입니다. 또한 클래스 타입의 인스턴스는 디이니셜라이저(deinitializer)를 정의 할 수 있습니다. 디이니셜라이저는 할당 해제되기 바로 직전에 맞춤 정리를 수행합니다. 디이니셜라이저에 대해 더 많은 정보를 원하시면 Deinitialization을 보세요.초기화는 클래스, 구조체, 또는 열거형의 인스턴스를 사용하기 위한 준비 과정입니다. 이 과정은 해당 인스턴스의 각각의 저장된 속성의 초기값을 설정하는 것과 그 외의 다른 설정 또는 새 인스턴스를 사용하기 전에 필요한 초기화를 합니다. 이 초기화 과정을 이니셜라이저(initializer)를 정의함으로서 구현할 수 있습니다. 이니셜라이저는 특정 타입의 새 인스턴스를 만들때 호출될 수 있는 특수 메소드입니다. 다른 오브젝티브 C의 이니셜라이저와는 달리 스위프트의 이니셜라이저는 값을 반환하지 않습니다. 이니셜라이저의 주 역할은 새 인스턴스가 처음 사용되기 전에 잘못된 곳이 없이 초기화가 되었는지 보장하는 것입니다. 또한 클래스 타입의 인스턴스는 디이니셜라이저(deinitializer)를 정의 할 수 있습니다. 디이니셜라이저는 할당 해제되기 바로 직전에 맞춤 정리를 수행합니다. 디이니셜라이저에 대해 더 많은 정보를 원하시면 Deinitialization을 보세요.</mutableString>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="28s-ZV-wAG" firstAttribute="top" secondItem="rOn-t6-fnf" secondAttribute="top" constant="16" id="Ac2-Qg-wdL"/>
+                                            <constraint firstItem="28s-ZV-wAG" firstAttribute="centerX" secondItem="rOn-t6-fnf" secondAttribute="centerX" id="D6L-AJ-HBx"/>
+                                            <constraint firstItem="UAf-8x-dpo" firstAttribute="width" secondItem="rOn-t6-fnf" secondAttribute="width" id="FtY-GP-lbw"/>
+                                            <constraint firstItem="28s-ZV-wAG" firstAttribute="width" secondItem="rOn-t6-fnf" secondAttribute="width" id="cNz-tY-mNV"/>
+                                            <constraint firstAttribute="height" constant="1000" id="z4o-Di-PYr"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="rOn-t6-fnf" secondAttribute="bottom" id="DQb-dF-3cS"/>
+                                    <constraint firstAttribute="trailing" secondItem="rOn-t6-fnf" secondAttribute="trailing" id="HkN-m7-TvB"/>
+                                    <constraint firstItem="rOn-t6-fnf" firstAttribute="width" secondItem="YoJ-ao-yV1" secondAttribute="width" id="Iab-Xd-7uf"/>
+                                    <constraint firstItem="rOn-t6-fnf" firstAttribute="top" secondItem="YoJ-ao-yV1" secondAttribute="top" id="UFf-A8-ERg"/>
+                                    <constraint firstItem="rOn-t6-fnf" firstAttribute="leading" secondItem="YoJ-ao-yV1" secondAttribute="leading" id="rXH-IU-jEG"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YoJ-ao-yV1" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="0fc-lQ-Rwy"/>
+                            <constraint firstItem="YoJ-ao-yV1" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="QMO-Oc-D6Y"/>
+                            <constraint firstItem="YoJ-ao-yV1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gNq-RR-3RQ"/>
+                            <constraint firstItem="YoJ-ao-yV1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kmZ-Qy-rnP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mEa-el-VmQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="137.18140929535232"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2sZ-Sn-iWg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5tp-dA-ch3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HMn-OX-f9Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lii-cz-5Qq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GII-EG-mR8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="137"/>
+        </scene>
+    </scenes>
+</document>

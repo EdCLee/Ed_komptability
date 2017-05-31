@@ -32,7 +32,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         tf3.placeholder = "tf3"
         tf3.tag = 3
 
-        print(_NSRange.init(location: 5, length: 5))
     }
 
     override func didReceiveMemoryWarning() {
@@ -87,15 +86,24 @@ class ViewController: UIViewController, UITextFieldDelegate {
 //        }
 //    }
     
-    //MARK: 정답같은 글자수 카운트 메소드
+    //MARK: Objective-C based 글자수 카운트 메소드
     // textfield의 조건에 따라 format을 입력하려면 switch를 태운다.
     // NSString, NSRange에 대해 알아야 함.
 //    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-//        
 //        var textCount = textField.text! as NSString
 //        textCount = textCount.replacingCharacters(in: range, with: string) as NSString
 //        
 //        return textCount.length <= 10
-//    }
+    }
+
+    //MARK: 이게 정답이래여 젠장...
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+
+        // textField 받아서 카운트 하고,
+        // 텍스트 입력이 들어오면 string에 추가해서 카운트 하고
+        // delete할땐 range로 빼주고!
+        let lenghtCounter: Int = (textField.text?.characters.count)! + string.characters.count - range.length
+        return lenghtCounter <= 10
 
 }
+
