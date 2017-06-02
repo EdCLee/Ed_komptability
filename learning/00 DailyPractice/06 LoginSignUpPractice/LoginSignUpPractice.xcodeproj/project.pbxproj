@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		712A4ED71EDFDC0600FFD6C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712A4ED61EDFDC0600FFD6C2 /* LoginViewController.swift */; };
+		712A4EDB1EDFECAB00FFD6C2 /* EDtools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712A4EDA1EDFECAB00FFD6C2 /* EDtools.swift */; };
+		712A4EDD1EE0107000FFD6C2 /* ForgotPWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712A4EDC1EE0107000FFD6C2 /* ForgotPWViewController.swift */; };
 		716E25721EDE53C200D7A4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E25711EDE53C200D7A4C2 /* AppDelegate.swift */; };
 		716E25741EDE53C200D7A4C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E25731EDE53C200D7A4C2 /* ViewController.swift */; };
 		716E25771EDE53C200D7A4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716E25751EDE53C200D7A4C2 /* Main.storyboard */; };
 		716E25791EDE53C200D7A4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716E25781EDE53C200D7A4C2 /* Assets.xcassets */; };
 		716E257C1EDE53C200D7A4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716E257A1EDE53C200D7A4C2 /* LaunchScreen.storyboard */; };
-		716E25841EDE6C7100D7A4C2 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E25831EDE6C7100D7A4C2 /* SingUpViewController.swift */; };
+		716E25841EDE6C7100D7A4C2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E25831EDE6C7100D7A4C2 /* SignUpViewController.swift */; };
 		716E25861EDE944000D7A4C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E25851EDE944000D7A4C2 /* Constants.swift */; };
 		716E25881EDE96DB00D7A4C2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E25871EDE96DB00D7A4C2 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		712A4ED61EDFDC0600FFD6C2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		712A4EDA1EDFECAB00FFD6C2 /* EDtools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EDtools.swift; path = ../EDtools.swift; sourceTree = "<group>"; };
+		712A4EDC1EE0107000FFD6C2 /* ForgotPWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPWViewController.swift; sourceTree = "<group>"; };
 		716E256E1EDE53C200D7A4C2 /* LoginSignUpPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSignUpPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716E25711EDE53C200D7A4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		716E25731EDE53C200D7A4C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +31,7 @@
 		716E25781EDE53C200D7A4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		716E257B1EDE53C200D7A4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716E257D1EDE53C200D7A4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		716E25831EDE6C7100D7A4C2 /* SingUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingUpViewController.swift; path = ../SingUpViewController.swift; sourceTree = "<group>"; };
+		716E25831EDE6C7100D7A4C2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../SignUpViewController.swift; sourceTree = "<group>"; };
 		716E25851EDE944000D7A4C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		716E25871EDE96DB00D7A4C2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,12 +66,15 @@
 		716E25701EDE53C200D7A4C2 /* LoginSignUpPractice */ = {
 			isa = PBXGroup;
 			children = (
-				716E25831EDE6C7100D7A4C2 /* SingUpViewController.swift */,
 				716E25711EDE53C200D7A4C2 /* AppDelegate.swift */,
-				716E25731EDE53C200D7A4C2 /* ViewController.swift */,
-				716E25751EDE53C200D7A4C2 /* Main.storyboard */,
 				716E25871EDE96DB00D7A4C2 /* MainViewController.swift */,
+				712A4ED61EDFDC0600FFD6C2 /* LoginViewController.swift */,
+				712A4EDC1EE0107000FFD6C2 /* ForgotPWViewController.swift */,
+				716E25831EDE6C7100D7A4C2 /* SignUpViewController.swift */,
+				716E25731EDE53C200D7A4C2 /* ViewController.swift */,
+				712A4EDA1EDFECAB00FFD6C2 /* EDtools.swift */,
 				716E25851EDE944000D7A4C2 /* Constants.swift */,
+				716E25751EDE53C200D7A4C2 /* Main.storyboard */,
 				716E25781EDE53C200D7A4C2 /* Assets.xcassets */,
 				716E257A1EDE53C200D7A4C2 /* LaunchScreen.storyboard */,
 				716E257D1EDE53C200D7A4C2 /* Info.plist */,
@@ -145,10 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712A4ED71EDFDC0600FFD6C2 /* LoginViewController.swift in Sources */,
 				716E25741EDE53C200D7A4C2 /* ViewController.swift in Sources */,
-				716E25841EDE6C7100D7A4C2 /* SingUpViewController.swift in Sources */,
+				716E25841EDE6C7100D7A4C2 /* SignUpViewController.swift in Sources */,
+				712A4EDB1EDFECAB00FFD6C2 /* EDtools.swift in Sources */,
 				716E25721EDE53C200D7A4C2 /* AppDelegate.swift in Sources */,
 				716E25861EDE944000D7A4C2 /* Constants.swift in Sources */,
+				712A4EDD1EE0107000FFD6C2 /* ForgotPWViewController.swift in Sources */,
 				716E25881EDE96DB00D7A4C2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

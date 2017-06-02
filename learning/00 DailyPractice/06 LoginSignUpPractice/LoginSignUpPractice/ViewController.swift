@@ -8,23 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate{
-
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var idTextField: UITextField!
-    @IBOutlet weak var pwTextField: UITextField!
-    @IBOutlet weak var subTitleLabel: UILabel!
-    
-    var data:String?
+class ViewController: UIViewController{
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        if data != nil {
-            idTextField.text = data
-        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,52 +21,22 @@ class ViewController: UIViewController, UITextFieldDelegate{
         // Dispose of any resources that can be recreated.
     }
 
-    //MARK: 키보드 올리기
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        self.scrollView.setContentOffset(CGPoint(x: 0.0, y: 150.0), animated:true)
-    }
-
-    //MARK: 키보드 내리기
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        self.scrollView.setContentOffset(CGPoint(x: 0.0, y: 0.0), animated: true)
-    }
-    
-    //MARK: 리턴키 설정
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        switch textField.tag {
-        case 101:
-            pwTextField.becomeFirstResponder()
-        case 102:
-            pwTextField.resignFirstResponder()
-        default:
-            textField.resignFirstResponder()
-        }
-        return true
-    }
-    
-    //MARK: 로그인 버튼 액션
-    @IBAction func loginButton(_ sender: UIButton) {
-        self.loginRequest()
-    }
-    
-    //MARK: 로그인 요청
-    func loginRequest() {
-        self.view.endEditing(true)
-        if !(self.idTextField.text?.isEmpty)! &&
-            !(self.pwTextField.text?.isEmpty)! {
-            if self.idTextField.text! == UserDefaults.standard.string(forKey: "ID") &&
-                self.pwTextField.text! == UserDefaults.standard.string(forKey: "Password") {
-                
-                UserDefaults.standard.set(true, forKey: Authentification.authentificationBool)
-                self.performSegue(withIdentifier: "UnwindSegue2", sender: self)
-                print("Login!")
-            
-            }else {
-                print("Fail to login")
-            }
-        }
-    }
-    
-    
 }
 
+// Segue를 이용한 이동 방법 perform
+//
+// ***code를 이용한 이동 방법 present***
+//
+//  UIViewController Instance Load
+//
+//  1. storyboard에서 viewController마다 ID를 지정해준다.
+//  2. 페이지 이동이 필요한 구간에
+//      let storyboard = UIStoryboard(name:"Main", bundle: nil)
+//      let vc = storyboard.instantiateViewController(withIdentifier:"StoryboardID")
+//     를 선언하는데 viewController안에 파일이 존재하는 경우
+//      let vc:WannaGoViewController = self.storyboard?.instantateViewController(withIdentifier:"WannaGoViewController") as! WannaGoViewController
+//     라고 사용해도 된다.
+//
+//  3. 이동에 사용되는 명령어는
+//      self.present(sign, animated: true, completion: nil)
+//     이다.
