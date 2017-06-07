@@ -194,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1364" y="600"/>
+            <point key="canvasLocation" x="1986" y="512"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="PZF-WR-Qre">
@@ -490,7 +490,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ph7-Ug-aWO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2418" y="312"/>
+            <point key="canvasLocation" x="2742" y="512"/>
         </scene>
         <!--ForgotPW View Controller-->
         <scene sceneID="b4M-ZZ-B3N">
@@ -515,7 +515,7 @@
                     <navigationItem key="navigationItem" id="KxD-K7-U4t">
                         <nil key="title"/>
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tFk-Vo-y3H">
-                            <rect key="frame" x="113" y="7" width="150" height="30"/>
+                            <rect key="frame" x="112.5" y="7" width="150" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button"/>
                         </button>
