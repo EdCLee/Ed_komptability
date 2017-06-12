@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nTQ-qm-vPD" customClass="CircleView" customModule="CustomView" customModuleProvider="target">
+                                <rect key="frame" x="94" y="239" width="188" height="188"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LIF-c3-wzQ">
+                                        <rect key="frame" x="11" y="0.0" width="167" height="187.5"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QsW-eU-eNJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="167" height="167"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="QsW-eU-eNJ" secondAttribute="height" multiplier="1:1" id="MGO-AU-kzH"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxV-LI-8xW">
+                                                <rect key="frame" x="0.0" y="167" width="167" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="KxV-LI-8xW" firstAttribute="width" secondItem="LIF-c3-wzQ" secondAttribute="width" id="Bt2-2C-Q84"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2Z-Db-fQs">
+                                        <rect key="frame" x="0.0" y="0.0" width="188" height="188"/>
+                                        <state key="normal" title="GO"/>
+                                        <connections>
+                                            <action selector="btnAction:" destination="nTQ-qm-vPD" eventType="touchUpInside" id="4aT-1u-aqA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="LIF-c3-wzQ" firstAttribute="centerX" secondItem="R2Z-Db-fQs" secondAttribute="centerX" id="H2B-7H-fzt"/>
+                                    <constraint firstItem="R2Z-Db-fQs" firstAttribute="centerY" secondItem="nTQ-qm-vPD" secondAttribute="centerY" id="HJX-Ti-Cvc"/>
+                                    <constraint firstAttribute="width" secondItem="nTQ-qm-vPD" secondAttribute="height" multiplier="1:1" id="SOd-ss-8bj"/>
+                                    <constraint firstItem="LIF-c3-wzQ" firstAttribute="top" secondItem="R2Z-Db-fQs" secondAttribute="top" id="XKB-Wp-rWA"/>
+                                    <constraint firstItem="LIF-c3-wzQ" firstAttribute="leading" secondItem="nTQ-qm-vPD" secondAttribute="leading" constant="11" id="dm2-Y3-3qw"/>
+                                    <constraint firstItem="R2Z-Db-fQs" firstAttribute="centerX" secondItem="nTQ-qm-vPD" secondAttribute="centerX" id="qZj-sX-Fcj"/>
+                                    <constraint firstItem="R2Z-Db-fQs" firstAttribute="width" secondItem="nTQ-qm-vPD" secondAttribute="width" id="sSI-ys-slc"/>
+                                    <constraint firstItem="R2Z-Db-fQs" firstAttribute="height" secondItem="nTQ-qm-vPD" secondAttribute="height" id="slt-Vw-89e"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="ImgView" destination="QsW-eU-eNJ" id="Sek-6L-9h1"/>
+                                    <outlet property="coverBtn" destination="R2Z-Db-fQs" id="Arq-bk-OvV"/>
+                                    <outlet property="title" destination="KxV-LI-8xW" id="8S1-pk-zTd"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nTQ-qm-vPD" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="dZV-6q-5d6"/>
+                            <constraint firstItem="nTQ-qm-vPD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ofc-qX-lRL"/>
+                            <constraint firstItem="nTQ-qm-vPD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rVH-jW-Z14"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="circle1" destination="nTQ-qm-vPD" id="nsw-GA-Kde"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+    </scenes>
+</document>

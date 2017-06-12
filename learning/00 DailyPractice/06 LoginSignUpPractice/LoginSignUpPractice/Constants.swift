@@ -15,3 +15,13 @@ struct Authentification {
     static let password = "Password"
     static let authentificationBool = "Authentification"
 }
+
+struct UserInfoKey {
+    static let userArray: String = "UserArray"
+    static let id: String = "UserId"
+}
+
+
+let userArray:[[String:Any]] = []
+
+UserDefaults.standard.set(userArray, forKey: UserInfoKey.userArray)

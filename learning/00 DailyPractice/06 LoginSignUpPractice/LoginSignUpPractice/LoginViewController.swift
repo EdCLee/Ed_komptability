@@ -26,7 +26,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         if data != nil {
             idTextField.text = data
         }
-        //시작과 동시에 거서 지정
+        //시작과 동시에 커서 지정
         //idTextField.becomeFirstResponder()
         
         // 화면전환을 하다보면 히든을 시켜놔도 다시 나타나기도 하므로
@@ -98,6 +98,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
         let sign:SignUpViewController = self.storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as! SignUpViewController
         //self.present(sign, animated: true, completion: nil)
+        
         //navigation Controller로 연결을 코드로 작업 한것.
         self.navigationController?.pushViewController(sign, animated: true)
     }
