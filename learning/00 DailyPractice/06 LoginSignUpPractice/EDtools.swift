@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+
+
 class EDtools {
     
     //MARK: 비었음 경고!
@@ -41,3 +43,6 @@ class EDtools {
 
     
 }
+
+
+

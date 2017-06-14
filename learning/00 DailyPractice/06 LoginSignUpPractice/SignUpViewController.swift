@@ -121,7 +121,6 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
         }
     }
     
-    
     //MARK: 프리페어를 이용한 아이디자동 찍기 기능
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let prepareId:LoginViewController = segue.destination as! LoginViewController

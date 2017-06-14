@@ -22,6 +22,6 @@ struct UserInfoKey {
 }
 
 
-let userArray:[[String:Any]] = []
-
-UserDefaults.standard.set(userArray, forKey: UserInfoKey.userArray)
+//let userArray:[[String:Any]] = []
+//
+//UserDefaults.standard.set(userArray, forKey: UserInfoKey.userArray)
