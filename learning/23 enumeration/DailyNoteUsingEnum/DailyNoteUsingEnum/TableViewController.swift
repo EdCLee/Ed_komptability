@@ -15,29 +15,34 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     @IBOutlet weak var tableView: UITableView!
     
+    let dayFormatter = DateFormatter()
+    let monthFormatter = DateFormatter()
+    var dayOfToday:Int?
+    var monthOfToday:Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
 //        let currentDate = Date()
-        
-        let dayFormatter = DateFormatter()
-        let monthFormatter = DateFormatter()
 //        dateFormatter.dateFormat = "dd.MM.yy"
 //        dateFormatter.dateFormat = "MMMMd" //June14
 //        dateFormatter.dateFormat = "MMMM" //June
 //        dateFormatter.dateFormat = "d" //14
 //        dateFormatter.dateFormat = "MM" //06
 //        dateFormatter.dateFormat = "MMM" //Jun
+        
         dayFormatter.dateFormat = "d"
-        monthFormatter.dateFormat = "MMM"
+        //얘가 스트링으로 month를 받을 필요는 없으니까 숫자로 받아 ㅇㅇ
+        monthFormatter.dateFormat = "M"
         
-        
-        let dayOfToday = Int(dayFormatter.string(from: Date()))
-        let monthOfToday = Int(monthFormatter.string(from: Date()))
-        
-        tableView?.scrollToRow(at: IndexPath(row: dayOfToday, section: monthOfToday), at: .top, animated: true)
+        dayOfToday = Int(dayFormatter.string(from: Date()))
+        monthOfToday = Int(monthFormatter.string(from: Date()))
 
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        tableView?.scrollToRow(at: IndexPath(row: dayOfToday!-1, section: monthOfToday!-1), at: .top, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -146,6 +151,18 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.dateFieldAtCell.text = "\(indexPath.row + 1)"
             
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+//        if indexPath == 
+    }
+    
+    func getTodayIndexPath() {
+        let date: Date = Date()
+        let calendar: Calendar = Calendar.current
+        
+        let month: Int = calendar.component(.month, from: date)
+        let
     }
 
 }
