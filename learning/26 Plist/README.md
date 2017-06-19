@@ -354,6 +354,26 @@ class FriendData {
 }
 ```
 
+<br>
+
+- appDelegate.swift
+
+```swift
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        
+        //Background에 들어갈때 저장.
+        UserDataSet.standard.save()
+    
+    }
+
+    func applicationWillTerminate(_ application: UIApplication) {
+        
+        //Terminate 될때 저장.
+        UserDataSet.standard.save()
+
+    }
+```
+
 ## Any? AnyObject?
 - Any는 인스턴스만 가능하나 AnyObject는 인스턴스와 객체 모두 가능하다.
 - swift3 부터 Any를 사용해서 plist에서 값을 불러올 수 있다. 
