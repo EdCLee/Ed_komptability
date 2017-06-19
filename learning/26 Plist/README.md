@@ -346,9 +346,21 @@ class FriendData {
                 do {
                     try fileManager.copyItem(atPath: bundlePath, toPath: realPath)
                 } catch {
+                		print("non defined error case")
                     return
                 }
             }
+            print("bundle has no data")
+            return
+        }
+        //write
+        if let userDict = NSDictionary(contentsOfFile: realPath) as? [String:Any] {
+            
+            var loadData = userDict
+            loadData.updateValue("addData", forKey: "key")
+            
+            let nsDict:NSDictionary = NSDictionary(dictionary: loadData)
+            nsDict.write(toFile: realPath, atomically: true)
         }
     }
 }
