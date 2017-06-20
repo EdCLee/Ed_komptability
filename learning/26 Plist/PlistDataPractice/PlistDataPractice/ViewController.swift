@@ -15,6 +15,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         UserDataSet.standard.save()
+        
+        //userDataSet == ["list":(   ), "version: 1.0"]
+        let data = UserDataSet.standard.object(forKey: "list") as! [Any]
+        
+        
+        //data = [(person), (    ), (    )]
+        for person in data {
+            let personDic = person as! [String:Any]
+            let name = personDic["name"] as! String
+            let email = personDic["email"] as! String
+            let id = personDic["id"] as! String
+        }
+        
+//        if let selectedUser = UserDataSet0620.
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,6 +14,8 @@
 		71B6304D1EF7B70B00F72C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B6304B1EF7B70B00F72C80 /* LaunchScreen.storyboard */; };
 		71B630551EF7BB8600F72C80 /* UserList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71B630541EF7BB8600F72C80 /* UserList.plist */; };
 		71B630571EF7BC1A00F72C80 /* UserDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B630561EF7BC1A00F72C80 /* UserDataSet.swift */; };
+		71B630591EF8C36600F72C80 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B630581EF8C36600F72C80 /* Person.swift */; };
+		71B6305B1EF8C47A00F72C80 /* UserDataSet0620.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B6305A1EF8C47A00F72C80 /* UserDataSet0620.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		71B6304E1EF7B70B00F72C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71B630541EF7BB8600F72C80 /* UserList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserList.plist; sourceTree = "<group>"; };
 		71B630561EF7BC1A00F72C80 /* UserDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataSet.swift; sourceTree = "<group>"; };
+		71B630581EF8C36600F72C80 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		71B6305A1EF8C47A00F72C80 /* UserDataSet0620.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataSet0620.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				71B6304E1EF7B70B00F72C80 /* Info.plist */,
 				71B630541EF7BB8600F72C80 /* UserList.plist */,
 				71B630561EF7BC1A00F72C80 /* UserDataSet.swift */,
+				71B6305A1EF8C47A00F72C80 /* UserDataSet0620.swift */,
+				71B630581EF8C36600F72C80 /* Person.swift */,
 			);
 			path = PlistDataPractice;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			files = (
 				71B630571EF7BC1A00F72C80 /* UserDataSet.swift in Sources */,
 				71B630451EF7B70B00F72C80 /* ViewController.swift in Sources */,
+				71B630591EF8C36600F72C80 /* Person.swift in Sources */,
 				71B630431EF7B70B00F72C80 /* AppDelegate.swift in Sources */,
+				71B6305B1EF8C47A00F72C80 /* UserDataSet0620.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +315,7 @@
 				71B630531EF7B70B00F72C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
