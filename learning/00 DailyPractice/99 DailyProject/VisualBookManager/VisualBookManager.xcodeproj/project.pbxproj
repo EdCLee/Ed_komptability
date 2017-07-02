@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71AABE941F03DCE700A81658 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C4D3BA1EFFB0BF002556E7 /* Book.swift */; };
 		71C4D3A91EFFAF80002556E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C4D3A81EFFAF80002556E7 /* AppDelegate.swift */; };
 		71C4D3AB1EFFAF80002556E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C4D3AA1EFFAF80002556E7 /* ViewController.swift */; };
 		71C4D3AE1EFFAF80002556E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C4D3AC1EFFAF80002556E7 /* Main.storyboard */; };
 		71C4D3B01EFFAF80002556E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C4D3AF1EFFAF80002556E7 /* Assets.xcassets */; };
 		71C4D3B31EFFAF80002556E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C4D3B11EFFAF80002556E7 /* LaunchScreen.storyboard */; };
-		71C4D3BC1EFFB0BF002556E7 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C4D3BA1EFFB0BF002556E7 /* Book.swift */; };
 		71C4D3BD1EFFB0BF002556E7 /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C4D3BB1EFFB0BF002556E7 /* BookManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -142,10 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AABE941F03DCE700A81658 /* Book.swift in Sources */,
 				71C4D3AB1EFFAF80002556E7 /* ViewController.swift in Sources */,
 				71C4D3A91EFFAF80002556E7 /* AppDelegate.swift in Sources */,
 				71C4D3BD1EFFB0BF002556E7 /* BookManager.swift in Sources */,
-				71C4D3BC1EFFB0BF002556E7 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +307,7 @@
 				71C4D3B91EFFAF80002556E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
