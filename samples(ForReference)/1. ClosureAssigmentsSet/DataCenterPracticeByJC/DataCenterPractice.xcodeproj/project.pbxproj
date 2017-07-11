@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7161087D1F14C49F008B39D9 /* IMG_0765.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7161087C1F14C49F008B39D9 /* IMG_0765.PNG */; };
 		B94D59FE1F065D36006C3AA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D59FD1F065D36006C3AA7 /* AppDelegate.swift */; };
 		B94D5A031F065D36006C3AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94D5A011F065D36006C3AA7 /* Main.storyboard */; };
 		B94D5A051F065D36006C3AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94D5A041F065D36006C3AA7 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7161087C1F14C49F008B39D9 /* IMG_0765.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0765.PNG; sourceTree = "<group>"; };
 		B94D59FA1F065D36006C3AA7 /* DataCenterPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataCenterPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94D59FD1F065D36006C3AA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B94D5A021F065D36006C3AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				B94D5A041F065D36006C3AA7 /* Assets.xcassets */,
 				B94D5A061F065D36006C3AA7 /* LaunchScreen.storyboard */,
 				B94D5A091F065D36006C3AA7 /* Info.plist */,
+				7161087C1F14C49F008B39D9 /* IMG_0765.PNG */,
 			);
 			path = DataCenterPractice;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 				B94D5A081F065D36006C3AA7 /* LaunchScreen.storyboard in Resources */,
 				B94D5A121F065E44006C3AA7 /* Person.plist in Resources */,
 				B94D5A051F065D36006C3AA7 /* Assets.xcassets in Resources */,
+				7161087D1F14C49F008B39D9 /* IMG_0765.PNG in Resources */,
 				B94D5A031F065D36006C3AA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
