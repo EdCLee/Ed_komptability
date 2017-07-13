@@ -12,6 +12,8 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     private var currentDataArray: [Person]!
     
+    @IBOutlet weak var tableViewSourceSegmentedControl: UISegmentedControl!
+    @IBOutlet weak var tableView: UITableView!
     @IBAction func segmentChanged(_ sender: UISegmentedControl) {
         filterData()
         self.tableView.reloadData()
@@ -19,8 +21,8 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
     }
     
-    @IBOutlet weak var tableViewSourceSegmentedControl: UISegmentedControl!
-    @IBOutlet weak var tableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         filterData()
@@ -31,6 +33,9 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         filterData()
         self.tableView.reloadData()
     }
+
+    
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return currentDataArray.count
@@ -54,6 +59,9 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     
+    
+    
+    
     func filterData() {
         currentDataArray = DataCenter.shared.dataArray.filter({ (person) -> Bool in
             switch self.tableViewSourceSegmentedControl.selectedSegmentIndex {
@@ -67,6 +75,9 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         })
     }
 }
+
+
+
 
 
 class PersonCell: UITableViewCell {

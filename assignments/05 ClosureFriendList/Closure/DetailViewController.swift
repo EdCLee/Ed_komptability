@@ -8,9 +8,9 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, UINavigationBarDelegate {
     
-    var genderSegValue:Int = 0
+//    var genderSegValue:Int = 0
     
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var segmentOutlet: UISegmentedControl!
@@ -68,25 +68,36 @@ class DetailViewController: UIViewController {
     
     
     @IBAction func saveButton(_ sender: UIButton) {
-        DataCenter.shared.add(personWithDictionary:
-            ["person_id":DataCenter.shared.dataArray.count,
-             "name":nameTextField.text!,
-             "gender":segmentOutlet.selectedSegmentIndex,
-             "age":ageTextField.text!,
-             "phone_number":phoneNumberTextField.text!])
-        
-        self.navigationController?.popViewController(animated: true)
+//        DataCenter.shared.add(personWithDictionary:
+//            ["person_id":DataCenter.shared.dataArray.count,
+//             "name":nameTextField.text!,
+//             "gender":segmentOutlet.selectedSegmentIndex,
+//             "age":ageTextField.text!,
+//             "phone_number":phoneNumberTextField.text!])
+//        
+//        self.navigationController?.popViewController(animated: true)
+        DataCenter.shared.add(person: Person.init(name: nameTextField.text!,
+                                                  gender: Gender(rawValue: segmentOutlet.selectedSegmentIndex)!,
+                                                  age: Int(ageTextField.text!)!,
+                                                  phoneNumber: phoneNumberTextField.text!))
+        self.dismiss(animated: true, completion: nil)
     }
     
     
-    //FIX: need to build up
-    @IBAction func deleteButton(_ sender: UIButton) {
-        
+    func position(for bar: UIBarPositioning) -> UIBarPosition {
+        return .topAttached
     }
+
     
-    @IBAction func resetButton(_ sender: UIButton) {
-        
-    }
+    
+//    //FIX: need to build up
+//    @IBAction func deleteButton(_ sender: UIButton) {
+//        
+//    }
+//    
+//    @IBAction func resetButton(_ sender: UIButton) {
+//        
+//    }
 
     
 

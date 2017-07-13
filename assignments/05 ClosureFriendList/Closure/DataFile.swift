@@ -6,15 +6,11 @@
 //  Copyright © 2017년 WingsCompany. All rights reserved.
 //
 
-import UIKit
-
-class DataFile {
-
-}
-
-
-
-
+//import UIKit
+//
+//class DataFile {
+//
+//}
 
 //class DataFile {
 //    
