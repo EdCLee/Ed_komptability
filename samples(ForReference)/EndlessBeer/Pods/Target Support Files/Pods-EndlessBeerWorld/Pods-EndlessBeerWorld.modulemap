@@ -1,0 +1,6 @@
+framework module Pods_EndlessBeerWorld {
+  umbrella header "Pods-EndlessBeerWorld-umbrella.h"
+
+  export *
+  module * { export * }
+}

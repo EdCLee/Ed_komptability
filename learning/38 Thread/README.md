@@ -1,4 +1,6 @@
 # Thread
+> thread를 que라고도 한다.
+
 - `thread`는 프로세스 내에서 실행되는 흐름의 단위를 말한다. 일반적으로 한 프로그램은 하나의 스레드를 가지고 있지만, 프로그램 환경에 따라 둘 이상의 스레드를 동시에 실행할 수 있다. 이러한 실행 방식을 `multithread`라고 한다.
 
 <br>
@@ -56,3 +58,208 @@
 <br>
 
 ## GCD(Grand Central Dispatch)
+- 비동기로 여러작업을 수행시키는 강력하고 쉬운 방법이다.
+- System에서 Thread 관리를 알아서 해준다.
+- dispatch queue를 이용해 작업들을 컨트롤 한다.
+- work item: Closure를 활용해서 구현되어 있으며 queue를 생성할때 꼭 같이 만들어야 한다.
+
+<br>
+
+#### DispatchQueue
+- dispatch queue는 GCD의 핵심으로 GCD로 실행한 작업들을 관리하는 queue이다.
+- 모든 dispatch queue는 first-in, first-out 데이터 구조이다.
+- 직렬(Serial Queue)와 병렬(Concurrent Queue) 2종류로 나눌 수 있다.
+
+<br>
+
+#### init
+
+```swift
+public convenience init(label: String,
+						qos: DispatchQos = default,
+						attributes: DispatchQueue.Attributes = default,
+						autorekeaseFrequency: DispatchQueue.AutoreleaseFrequency = default,
+						tartget: DispatchQueue? = default()
+
+let queue = DispatchQueue(label: "com.wing.queue")
+let queueOption = DispatchQueue(label: "com.wing.queue1", qos: .userInitiated)
+let queueAttri = DispatchQueue(label: "com.wing.queue2", attributes:[.concurrent, initiallyInactive])
+```
+
+<br>
+
+#### async
+
+```swift
+let queue = DispatchQueue(label: "com.wing.async")
+queue.async {
+}
+```
+
+<br>
+
+#### Quality Of Service(QoS) and Priorities
+```
+userInteractive		//우선순위 상 
+userInitiated
+default
+utility
+background
+unspecified			//우선순위 하
+```
+
+```swift
+public struce DispacthQoS : Equatable {
+	public let relativePriority: Int
+	public static let background: DispatchQoS
+	public static let utility: DispatchQoS
+	public static let `default`: DispatchQoS
+	public static let userInitiated: DispatchQoS
+	public static let userInteractive: DispatchQoS
+	public static let unspecified: DispatchQoS
+```
+
+```swift
+let q2 = DispatchQueue(label: "com.closureExample.q2", qos: .userInteractive)
+        let q3 = DispatchQueue(label: "com.closureExample.q3", qos: .userInitiated)
+        let q4 = DispatchQueue(label: "com.closureExample.q4", qos: .default)
+        let q5 = DispatchQueue(label: "com.closureExample.q5", qos: .utility)
+        let q6 = DispatchQueue(label: "com.closureExample.q6", qos: .background)
+        let q7 = DispatchQueue(label: "com.closureExample.q7", qos: .unspecified)
+        
+        //userInteractive
+        q2.async {
+            for n in 200..<300 {
+            print("\(n) : userInteractive")
+            }
+        }
+        
+        //userInitiated
+        q3.async {
+            for n in 300..<400 {
+            print("\(n) :  userInitiated")
+            }
+        }
+        
+        //default
+        q4.async {
+            for n in 400..<500 {
+            print("\(n) :   default")
+            }
+        }
+        
+        //utility
+        q5.async {
+            for n in 500..<600 {
+            print("\(n) :    utility")
+            }
+        }
+        
+        //background
+        q6.async {
+            for n in 600..<700 {
+            print("\(n) :     background")
+            }
+        }
+        
+        //unspecified
+        q7.async {
+            for n in 700..<800 {
+            print("\(n) :      unspecified")
+            }
+        }
+```
+
+<br>
+
+#### Attributes
+
+```swift
+public struct Attributes: OptionSet {
+	public static let concurrent: DispatchQueue.Attributes
+	public static let initiallyInactive: DispatchQueue.Attributes
+}
+```
+
+- Default = 직렬
+- concurrent = 병렬
+- initiallyinactive = 태스크 수동 실행(activate() 메소드)
+
+<br>
+
+#### Main dispatch queue
+- Main Thread를 가르키며 기본 UI를 제어하는 queue이다.
+- Serial 방식으로 들어온 순서대로 진행되며 앞에 작업이 종료될 떄까지 뒤의 작업들은 대기 한다.
+- 생성
+
+```swift
+	DispatchQueue.main.async {
+		// Do something
+	}
+```
+
+<br>
+
+#### Global dispatch queue
+- app 전역에 사용되는 queue로서 Concurrent 방식의 queue이다.
+- option으로 qos를 설정 할 수 있다.
+- 생성
+
+```swift
+let globalQueue = DispatchQueue.global()
+let globalQueue = DispatchQueue.global(qos: .userInitiated)
+```
+
+<br>
+
+#### DispatchWorkItem
+- 실행 할 수 있는 작업의 캡슐화
+- 이벤트를 등록, 취소 할 수 있다.
+- dispatchQueue에서 실행 시킬 수 있다.
+
+```swift
+public init(qos: DispatchQos = default,
+			flags: DispatchWorkItemFlags = default,
+			block: @escaping @convention(block) () -> Swift.Void)
+```
+
+<br>
+
+#### DispatchWorkItem example
+
+```swift
+func useWorkItem() {
+	var value = 10
+	let workItem = DispatchWorkItem {
+		value += 5
+	}
+	
+	workItem.perform()
+	
+	let queue = DispatchQueue.global(qos: .utility)
+	queue.async(execute: workItem)
+	workItem.notity(queue: DispatchQueue.main) {
+		print("value = ", value)
+	}
+}
+```
+
+<br>
+
+## Timer
+
+```swift
+let delayQueue = DispatchQueue(label: "com.wing.delayqueue", qos: .userInitiated)
+
+print(Date())
+
+let additionTime: DispatchTimeInterval = .seconds(2)
+
+delayQueue.asyncAfter(deadline: .mow() + additionalTime {
+	print(Date())
+}
+
+delayQueue.asyncAfter(deafline: .now() + 0.75) {
+	print(Date())
+}
+```

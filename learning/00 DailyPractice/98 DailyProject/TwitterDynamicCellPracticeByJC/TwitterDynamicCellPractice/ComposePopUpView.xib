@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner">
+            <connections>
+                <outlet property="textView" destination="zrU-lH-GDp" id="d65-K8-Jcp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="HWE-lF-RxT">
+            <rect key="frame" x="0.0" y="0.0" width="283" height="183"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aNe-YA-O3X">
+                    <rect key="frame" x="0.0" y="8" width="283" height="175"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibH-f0-r0h">
+                            <rect key="frame" x="18" y="0.0" width="247" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="8fa-Qc-uN7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                            <color key="textColor" red="0.1148131862" green="0.63301128149999997" blue="0.94878464939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zrU-lH-GDp">
+                            <rect key="frame" x="14" y="40" width="255" height="91"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" keyboardType="twitter"/>
+                        </textView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="f8f-1A-K6B">
+                            <rect key="frame" x="0.0" y="131" width="283" height="44"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbT-c9-0av">
+                                    <rect key="frame" x="0.0" y="0.0" width="141.5" height="44"/>
+                                    <color key="backgroundColor" red="0.95112802245250427" green="0.96113989637305697" blue="0.96113989637305697" alpha="0.75638204229999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <state key="normal" title="Cancel"/>
+                                    <connections>
+                                        <action selector="cancelButtonTouched:" destination="-1" eventType="touchUpInside" id="hU7-9X-0jj"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaO-vv-S9D">
+                                    <rect key="frame" x="141.5" y="0.0" width="141.5" height="44"/>
+                                    <color key="backgroundColor" red="0.1148131862" green="0.63301128149999997" blue="0.94878464939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <state key="normal" title="Save">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="saveButtonTouched:" destination="-1" eventType="touchUpInside" id="PZg-2m-Jrc"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="ceQ-7D-jNX"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="f8f-1A-K6B" firstAttribute="width" secondItem="aNe-YA-O3X" secondAttribute="width" id="fac-AB-ka3"/>
+                        <constraint firstItem="ibH-f0-r0h" firstAttribute="width" secondItem="aNe-YA-O3X" secondAttribute="width" multiplier="0.9" constant="-8" id="hJ0-uB-89x"/>
+                        <constraint firstItem="zrU-lH-GDp" firstAttribute="width" secondItem="aNe-YA-O3X" secondAttribute="width" multiplier="0.9" id="hjK-mt-WUw"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="tintColor" red="0.1148131862" green="0.63301128149999997" blue="0.94878464939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aNe-YA-O3X" secondAttribute="trailing" id="EEj-ZD-RTf"/>
+                <constraint firstAttribute="bottom" secondItem="aNe-YA-O3X" secondAttribute="bottom" id="M2q-UO-7cF"/>
+                <constraint firstItem="aNe-YA-O3X" firstAttribute="top" secondItem="HWE-lF-RxT" secondAttribute="top" constant="8" id="WR1-gD-76K"/>
+                <constraint firstItem="aNe-YA-O3X" firstAttribute="leading" secondItem="HWE-lF-RxT" secondAttribute="leading" id="eFd-kM-kP3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="36.5" y="41.5"/>
+        </view>
+    </objects>
+</document>
