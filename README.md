@@ -1,4 +1,4 @@
-![cover](cover.pdf)
+![cover](cover.svg)
 
 <br>
 <br>
@@ -16,13 +16,13 @@
 ## Contact me here,
 Junior iOS Developer, Changho Lee
 <br>
-![iOS Developer](https://img.shields.io/badge/iOS--Developer-60%-yellow.svg)
+![iOSDeveloper](https://img.shields.io/badge/iOS--Developer-60%-yellow.svg?style=flat)
 <br>
-![being human](https://img.shields.io/badge/being--human-80%-green.svg)
+![beingHuman](https://img.shields.io/badge/being--Human-80%-green.svg?style=flat)
 <br>
 
 Contacts
 <br>
-[![e-mail](https://img.shields.io/badge/email-llacovoc@gmail.com-blue.svg)](mailto:llacovoc@gmail.com)
+[![e-mail](https://img.shields.io/badge/email-llacovoc@gmail.com-brightgreen.svg)](mailto:llacovoc@gmail.com)
 <br>
 ![phone](https://img.shields.io/badge/phone-+82--10--2173--4717-blue.svg)
