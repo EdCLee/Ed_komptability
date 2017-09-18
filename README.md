@@ -1,4 +1,4 @@
-![cover](cover.svg)
+![cover](cover.png)
 
 <br>
 <br>
@@ -16,9 +16,9 @@
 ## Contact me here,
 Junior iOS Developer, Changho Lee
 <br>
-![iOSDeveloper](https://img.shields.io/badge/iOS--Developer-60%-yellow.svg?style=flat)
+![ios-developer](https://img.shields.io/badge/ios--developer-60%-yellow.svg?style=flat)
 <br>
-![beingHuman](https://img.shields.io/badge/being--Human-80%-green.svg?style=flat)
+![being-human](https://img.shields.io/badge/being--human-80%-green.svg?style=flat)
 <br>
 
 Contacts
