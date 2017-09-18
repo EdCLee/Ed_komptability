@@ -16,9 +16,11 @@
 ## Contact me here,
 Junior iOS Developer, Changho Lee
 <br>
-![ios-developer](https://img.shields.io/badge/ios--developer-60%-yellow.svg?style=flat)
+![web](https://img.shields.io/badge/Web-40%-orange.svg?style=flat)
 <br>
-![being-human](https://img.shields.io/badge/being--human-80%-green.svg?style=flat)
+![ios](https://img.shields.io/badge/iOS-60%-yellow.svg?style=flat)
+<br>
+![human](https://img.shields.io/badge/human-80%-green.svg?style=flat)
 <br>
 
 Contacts
