@@ -10,10 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func loadView() {
-        super.loadView()
-        print("ViewController...loadView")
-    }
+    // frame base로 뷰를 그릴때 사용하며 super는 부르지 않는다. 사용할 경우 공식문서 한번 확인해보길 바람.
+//    override func loadView() {
+//        super.loadView()
+//        print("ViewController...loadView")
+//    }
     
     // called after the controller's view is loaded into memory
     override func viewDidLoad() {
@@ -21,6 +22,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         print("ViewController...viewDidLoad")
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -34,6 +36,7 @@ class ViewController: UIViewController {
         super.viewDidAppear(true)
         
         print("ViewController...viewDidAppear")
+        
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -59,5 +62,3 @@ class ViewController: UIViewController {
 }
 
 //note:
-
-// super.

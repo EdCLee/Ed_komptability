@@ -1,6 +1,5 @@
-# Under Renovation
+![](/Users/CLEE/Documents/EdKomptability/quiver/0.imgsources/ChanghoCover.pdf)
 
-업데이트 중입니다.
 <br>
 <br>
 <br>
@@ -9,11 +8,6 @@
 
 `Projects`
   - [계산기](https://github.com/EdCLee/Ed_komptability/blob/master/projects/01%20Calculator/Calculator/ViewController.swift)
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
