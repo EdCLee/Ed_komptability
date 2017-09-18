@@ -1,4 +1,4 @@
-![cover](cover.pdf)
+![cover](../cover.pdf)
 
 <br>
 <br>
