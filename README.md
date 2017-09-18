@@ -1,4 +1,5 @@
 ![cover](../cover.pdf)
+<p><img src="https://github.com/EdCLee/Ed_komptability/blob/master/cover.pdf" alt="cover"></p>
 <p><img src="https://raw.github.com/dcurtis/markdown-mark/master/png/208x128.png" alt="마크다운 로고"></p>
 
 <br>
