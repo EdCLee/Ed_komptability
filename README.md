@@ -1,4 +1,4 @@
-![/Users/CLEE/Documents/EdKomptability/quiver/0.imgsources/ChanghoCover.pdf](/Users/CLEE/Documents/EdKomptability/quiver/0.imgsources/ChanghoCover.pdf)
+![cover.png](/Users/CLEE/Documents/EdKomptability/cover.pdf)
 
 <br>
 <br>
