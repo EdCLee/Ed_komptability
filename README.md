@@ -1,8 +1,9 @@
-![](/Users/CLEE/Documents/EdKomptability/quiver/0.imgsources/ChanghoCover.pdf)
+![/Users/CLEE/Documents/EdKomptability/quiver/0.imgsources/ChanghoCover.pdf](/Users/CLEE/Documents/EdKomptability/quiver/0.imgsources/ChanghoCover.pdf)
 
 <br>
 <br>
 <br>
+
 `Assignments`
   - [과제페이지](https://github.com/EdCLee/Ed_komptability/tree/master/assignments)
 
