@@ -1,4 +1,4 @@
-![cover.png](/Users/CLEE/Documents/EdKomptability/cover.pdf)
+![cover](cover.pdf)
 
 <br>
 <br>
@@ -13,8 +13,16 @@
 <br>
 <br>
 
-### Contact me here,
-
-[![e-mail](https://img.shields.io/badge/email-llacovoc@gmail.com-green.svg)](mailto:llacovoc@gmail.com)
+## Contact me here,
+Junior iOS Developer, Changho Lee
 <br>
-![phone](https://img.shields.io/badge/phone-+82 10--2173--4717-yellow.svg)
+![iOS Developer](https://img.shields.io/badge/iOS--Developer-60%-yellow.svg)
+<br>
+![being human](https://img.shields.io/badge/being--human-80%-green.svg)
+<br>
+
+Contacts
+<br>
+[![e-mail](https://img.shields.io/badge/email-llacovoc@gmail.com-blue.svg)](mailto:llacovoc@gmail.com)
+<br>
+![phone](https://img.shields.io/badge/phone-+82--10--2173--4717-blue.svg)
