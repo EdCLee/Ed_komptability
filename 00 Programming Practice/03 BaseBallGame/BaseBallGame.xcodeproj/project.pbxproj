@@ -105,6 +105,7 @@
 				TargetAttributes = {
 					711D5BE41ED3C4D6005C17DE = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NCP5LJ9VMK;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -270,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NCP5LJ9VMK;
 				INFOPLIST_FILE = BaseBallGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CLEE.BaseBallGame;
@@ -282,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NCP5LJ9VMK;
 				INFOPLIST_FILE = BaseBallGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CLEE.BaseBallGame;
