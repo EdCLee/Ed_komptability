@@ -15,10 +15,10 @@
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> | [About Computer & Swift](https://github.com/EdCLee/Ed_komptability/tree/master/01%20Lectures/01%20aboutSwift) | [24 pages](https://github.com/EdCLee/Ed_komptability/blob/master/01%20Lectures/01%20aboutSwift/20170508.pdf) || Basic knowledge about computer |
-	> | [About Git](https://github.com/EdCLee/Ed_komptability/tree/master/01%20Lectures/02%20aboutGit) | [33 pages](https://github.com/EdCLee/Ed_komptability/blob/master/01%20Lectures/02%20aboutGit/20170509.pdf) |||
-	> | [About Object Oriented Programming](https://github.com/EdCLee/Ed_komptability/tree/master/01%20Lectures/03%20객체지향프로그래밍%2C%20인스턴스) | [11 pages](https://github.com/EdCLee/Ed_komptability/blob/master/01%20Lectures/03%20객체지향프로그래밍%2C%20인스턴스/20170510.pdf) | [Calculator](https://github.com/EdCLee/Ed_komptability/tree/master/02%20Projects/01%20Calculator) || <img src = "/Users/CLEE/Documents/EdKomptability/02 Projects/01 Calculator/calculatorResult00.png" width = 180> |
-	> | [Variable & Function](https://github.com/EdCLee/Ed_komptability/tree/master/01%20Lectures/04%20변수%2C%20상수%2C%20함수) | [48 pages](https://github.com/EdCLee/Ed_komptability/blob/master/01%20Lectures/04%20변수%2C%20상수%2C%20함수/20170511.pdf) || Include Tuple, In-Out, Types and Type Casting |
+	> | [About Computer & Swift](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/01%20aboutSwift) | [24 pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/01%20aboutSwift/20170508.pdf) || Basic knowledge about computer |
+	> | [About Git](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/02%20aboutGit) | [33 pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/02%20aboutGit/20170509.pdf) |||
+	> | [About Object Oriented Programming](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/03%20객체지향프로그래밍%2C%20인스턴스) | [11 pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/03%20객체지향프로그래밍%2C%20인스턴스/20170510.pdf) | [Calculator](https://github.com/EdCLee/Ed_komptability/tree/master/01%20Programming%20Practice/02%20App%20Practice/01%20Calculator) || <img src = "https://github.com/EdCLee/Ed_komptability/blob/master/01%20Programming%20Practice/02%20App%20Practice/01%20Calculator/calculatorResult00.png" width = 180> |
+	> | [Variable & Function](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/04%20변수%2C%20상수%2C%20함수) | [48 pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/04%20변수%2C%20상수%2C%20함수/20170511.pdf) || Include Tuple, In-Out, Types and Type Casting |
 
 - **2nd Week : 15 - 19 May**
 
