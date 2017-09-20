@@ -134,7 +134,7 @@
 				TargetAttributes = {
 					B9899CE31F16FBC300B005CF = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8KDMCH8V2F;
+						DevelopmentTeam = NCP5LJ9VMK;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -311,7 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8KDMCH8V2F;
+				DEVELOPMENT_TEAM = NCP5LJ9VMK;
 				INFOPLIST_FILE = TwitterDynamicCellPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jongchanpark.developed.TwitterDynamicCellPractice;
@@ -324,7 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8KDMCH8V2F;
+				DEVELOPMENT_TEAM = NCP5LJ9VMK;
 				INFOPLIST_FILE = TwitterDynamicCellPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jongchanpark.developed.TwitterDynamicCellPractice;

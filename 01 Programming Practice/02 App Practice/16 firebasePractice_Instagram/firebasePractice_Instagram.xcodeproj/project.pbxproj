@@ -149,7 +149,7 @@
 				TargetAttributes = {
 					6AD1E8C61F25BCD8009100A3 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2DHMJ6Z3L3;
+						DevelopmentTeam = NCP5LJ9VMK;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -350,7 +350,7 @@
 			baseConfigurationReference = A5FEF3C5533A4C7EAD9E2EE7 /* Pods-firebasePractice_Instagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2DHMJ6Z3L3;
+				DEVELOPMENT_TEAM = NCP5LJ9VMK;
 				INFOPLIST_FILE = firebasePractice_Instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iOSCampus.firebasePractice-Instagram";
@@ -364,7 +364,7 @@
 			baseConfigurationReference = 6653B291AF64A668E7D2DD5B /* Pods-firebasePractice_Instagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2DHMJ6Z3L3;
+				DEVELOPMENT_TEAM = NCP5LJ9VMK;
 				INFOPLIST_FILE = firebasePractice_Instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iOSCampus.firebasePractice-Instagram";

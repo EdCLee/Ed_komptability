@@ -7,9 +7,7 @@
 
 ## iOS Class <img src = "http://cdn.www.fastcampus.co.kr/wp-content/uploads/2016/01/fastcampus_logo_345x76.png" width = 180 align = right>
 
-#### 00 [Programming Practice](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Programming%20Practice)
-
-#### 01 Lectures
+#### 00 [Lectures](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures)
 
 - **1st Week : 8 - 12 May**
 
@@ -24,55 +22,58 @@
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> ||||||
+	> | [Control Flow - if](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/05%20조건문%20if%20%26%20연산자) | [19 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/05%20조건문%20if%20%26%20연산자/20170512.pdf) || include if-else, operators ||
+	> | [Control Flow - switch](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/06%20조건문%20switch) | [45 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/06%20조건문%20switch/20170515.pdf) || include if-else, operators, Interval Matching, value binding, where ||
+	> | [Collection Type & Loop](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/07%20Collection%20Type%20%26%20반복문%20(while%20%26%20for-in)) | [33 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/07%20Collection%20Type%20%26%20반복문%20(while%20%26%20for-in)/20170516.pdf) || include Array, Set, Dictionary, while, for-in, wild card(_) ||
+	> | [Optional & Class](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/08%20Optional%20%26%20Class) | [37 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/08%20Optional%20%26%20Class/20170517.pdf) || include nil, Unwrapping, Optional Binding, Class & Struct, Property, init, override ||
 	
 - **3rd Week : 22 - 26 May**
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> ||||||
+	> | []() | []() ||||
 	
 - **4th Week : 29 May - 2 June**
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> ||||||
+	> | []() | []() ||||
 	
 - **5th Week : 7 - 9 June**
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> ||||||
+	> | []() | []() ||||
 	
 - **6th Week : 12 - 16 June**
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> ||||||
+	> | []() | []() ||||
 	
 - **7th Week : 19 - 23 June**
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> ||||||
+	> | []() | []() ||||
 
 - **8th Week : 26 - 30 June**
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> ||||||
+	> | []() | []() ||||
 	
 - **9th Week : 3 - 7 July**
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> ||||||
+	> | []() | []() ||||
 	
 - **10th Week : 10 - 14 July**
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> ||||||
+	> | []() | []() ||||
 	
 - **11th Week : 18 - 21 July**
 
@@ -81,11 +82,19 @@
 - **12th Week : 24 - 28 July**
 
 	> ###### Summarize with Firebase and instagram API
+
+<br>
+---
+<br>
 	
+#### 01 [Programming Practice](https://github.com/EdCLee/Ed_komptability/tree/master/01%20Programming%20Practice)	
+#### 02 [Projects](https://github.com/EdCLee/Ed_komptability/tree/master/02%20Projects)
+
 #### 03 [Samples For Reference](https://github.com/EdCLee/Ed_komptability/tree/master/03%20Samples(ForReference))
 
 #### 99 [Quiver slots for fast coding](https://github.com/EdCLee/Ed_komptability/tree/master/99%20Quiver)
 
+<br>
 <br>
 <br>
 

@@ -30,7 +30,8 @@ class CustomTableViewCell: UITableViewCell {
 
 }
 
-protocol TwitDynamicCellDelegate {
-    func showProfileView(_ cell)
-    
-}
+//protocol TwitDynamicCellDelegate {
+//    func showProfileView(_ cell)
+//    
+//}
+
