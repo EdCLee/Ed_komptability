@@ -24,14 +24,18 @@
 	> | :--- | :--- | :--- | :--- | :--- |
 	> | [Control Flow - if](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/05%20조건문%20if%20%26%20연산자) | [19 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/05%20조건문%20if%20%26%20연산자/20170512.pdf) || include if-else, operators ||
 	> | [Control Flow - switch](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/06%20조건문%20switch) | [45 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/06%20조건문%20switch/20170515.pdf) || include if-else, operators, Interval Matching, value binding, where ||
-	> | [Collection Type & Loop](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/07%20Collection%20Type%20%26%20반복문%20(while%20%26%20for-in)) | [33 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/07%20Collection%20Type%20%26%20반복문%20(while%20%26%20for-in)/20170516.pdf) || include Array, Set, Dictionary, while, for-in, wild card(_) ||
-	> | [Optional & Class](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/08%20Optional%20%26%20Class) | [37 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/08%20Optional%20%26%20Class/20170517.pdf) || include nil, Unwrapping, Optional Binding, Class & Struct, Property, init, override ||
+	> | [Collection Type & Control Flow - Loop](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/07%20Collection%20Type%20%26%20반복문%20(while%20%26%20for-in)) | [33 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/07%20Collection%20Type%20%26%20반복문%20(while%20%26%20for-in)/20170516.pdf) | [CollatzConjecture](https://github.com/EdCLee/Ed_komptability/blob/master/01%20Programming%20Practice/01%20Algorithm%20Practice/02%20CollatzConjecture/CollatzConjecture/ViewController.swift) / [BaseballGame](https://github.com/EdCLee/Ed_komptability/blob/master/01%20Programming%20Practice/02%20App%20Practice/04%20BaseBallGame/BaseBallGame/ViewController.swift) | include Array, Set, Dictionary, while, for-in, wild card(_) | <img src = "https://github.com/EdCLee/Ed_komptability/blob/master/01%20Programming%20Practice/02%20App%20Practice/04%20BaseBallGame/BaseBallGameResult00.png" width = 180> |
+	> | [Optional & Class](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/08%20Optional%20%26%20Class) | [37 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/08%20Optional%20%26%20Class/20170517.pdf) | [VendingMachine](https://github.com/EdCLee/Ed_komptability/blob/master/01%20Programming%20Practice/02%20App%20Practice/03%20VendingMachine/VendingMachine/ViewController.swift)| include nil, Unwrapping, Optional Binding, Class & Struct, inheritance, Property, init, override | <img src="https://github.com/EdCLee/Ed_komptability/blob/master/01%20Programming%20Practice/02%20App%20Practice/03%20VendingMachine/VendingMAchineResult00.png" width = 180> |
 	
 - **3rd Week : 22 - 26 May**
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> | []() | []() ||||
+	> | [UIClass](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/10%20UIView%2C%20UICode%2C%20Asset) | [43 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/10%20UIView%2C%20UICode%2C%20Asset/20170522.pdf) | [HelloKittyPixelArt](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/10%20UIView%2C%20UICode%2C%20Asset/HelloKittyPixelArt/HelloKittyPixelArt/ViewController.swift) | Basic UI Classes | <img src="" width=180>|
+	> | [App Life Cycle & Access Control](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/11%20AppLifeCycle%2C%20접근제어) | [24 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/11%20AppLifeCycle%2C%20접근제어/20170523.pdf)|| include AppDelegate ||
+	> | [Recursion, Classes & Structures](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/12%20Recursion%2C%20Class%20%26%20Struct) |||||
+	> | [AutoLayout]() | []() | [HanoiTower]() |||
+	> ||||||
 	
 - **4th Week : 29 May - 2 June**
 
