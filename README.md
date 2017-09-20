@@ -31,11 +31,12 @@
 
 	> | <center>Summary</center> | <center>Docs</center> | <center>Practice</center> | <center>Note</center> | <center>etc.</center> |
 	> | :--- | :--- | :--- | :--- | :--- |
-	> | [UIClass](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/10%20UIView%2C%20UICode%2C%20Asset) | [43 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/10%20UIView%2C%20UICode%2C%20Asset/20170522.pdf) | [HelloKittyPixelArt](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/10%20UIView%2C%20UICode%2C%20Asset/HelloKittyPixelArt/HelloKittyPixelArt/ViewController.swift) | Basic UI Classes | <img src="" width=180>|
-	> | [App Life Cycle & Access Control](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/11%20AppLifeCycle%2C%20접근제어) | [24 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/11%20AppLifeCycle%2C%20접근제어/20170523.pdf)|| include AppDelegate ||
-	> | [Recursion, Classes & Structures](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/12%20Recursion%2C%20Class%20%26%20Struct) |||||
-	> | [AutoLayout]() | []() | [HanoiTower]() |||
-	> ||||||
+	> | [UIClass](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/10%20UIView%2C%20UICode%2C%20Asset) | [43 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/10%20UIView%2C%20UICode%2C%20Asset/20170522.pdf) | [HelloKittyPixelArt](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/10%20UIView%2C%20UICode%2C%20Asset/HelloKittyPixelArt/HelloKittyPixelArt/ViewController.swift) | Basic UI Classes | <img src="https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/10%20UIView%2C%20UICode%2C%20Asset/HelloKittyPixelArt/HelloKittyPixelArtResult00.png" width=180>|
+	> | [App Life Cycle & Access Control](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/11%20AppLifeCycle%20%26%20Access%20Control) | [24 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/11%20AppLifeCycle%20%26%20Access%20Control/20170523.pdf)|| include AppDelegate ||
+	> | [Recursion](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/12%20Recursion) || [Tower of Hanoi](https://github.com/EdCLee/Ed_komptability/blob/master/01%20Programming%20Practice/01%20Algorithm%20Practice/03%20HanoiTower.playground/Contents.swift) |||
+	> | [Class & Struct]() | [32 Pages](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/13%20Class%20%26%20Struct/20170523.pdf) | [Practice](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/13%20Class%20%26%20Struct/ClassStructure/ClassStructure) |||
+	> | [AutoLayout](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/14%20AutoLayout) || [Practice](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/14%20AutoLayout/AutoLauout/AutoLauout) |||
+	> | [Delegate & Protocol](https://github.com/EdCLee/Ed_komptability/tree/master/00%20Lectures/15%20Delegate%20%26%20Protocol)|| [Practice](https://github.com/EdCLee/Ed_komptability/blob/master/00%20Lectures/15%20Delegate%20%26%20Protocol/protocolDelegate/protocolDelegate/ViewController.swift)|||
 	
 - **4th Week : 29 May - 2 June**
 
